@@ -5,12 +5,10 @@ Este é o teste prático para candidatos à vaga de desenvolvimento PHP do Shosp
 **Requisitos:**
 - Domínio da Linguagem PHP
 - Javascript (jquery e ajax)
-- Banco de dados Postgresql
 - Interpretação de texto
 
 **Desejável:**
 - Programação orientada a objetos
-- PDO
 - MVC
 - Javascript e Ajax
 
@@ -20,11 +18,14 @@ A partir da descrição do teste, codificar em PHP os requisitos enumerados leva
 
 ## Descrição do teste
 
-Criar um programa que faça manutenção do cadastro de pacientes. Deverá ter os recursos básicos de um CRUD (Create, Read, Update e Delete  - Cadastrar, Listar, Alterar e Deletar).
+Escrever o código no arquivo listar.php que fará a leitura do arquivo pacientes.csv e preencherá na tela os dados em uma tabela.
 
-Os detalhes e requisitos do banco de dados, como tamanho das colunas, tipos, obrigatoriedade e outras propriedades devem estar implementados em seu código.
+A tabela deve ter as seguintes colunas: Nome, Sobrenome, CPF, Email, Data Nascimento, Genero, Tipo Sanguineo, Endereco, Cidade, Estado e CEP 
 
-A tabela de pacientes já está cadastrada no banco de dados (os dados de conexão seguem ao final deste documento) e se relaciona com a tabela “Tipo Sanguíneo” que também já está criada.
+Para cada registro, caso o CPF, Email e Data de Nascimento não sejam válidos, não deve preencher a coluna.
+
+Todos os arquivos estão neste branch
+
 
 ## Avaliação
 
@@ -35,7 +36,6 @@ Demonstrar habilidade em escrever programas com linguagem PHP utilizando conexã
 - Tratamento de erros
 - Controle de segurança de dados
 - Garantia de integridade de dados
-- Requisições assíncronas/síncronas com Ajax
 
 ## Prazo
 
