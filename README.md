@@ -44,7 +44,7 @@ O tempo disponibilizado para o teste é de:
 - 360 minutos para **Junior**.
 - 120 minutos para **Pleno**.
 
-# Entrega:
+## Entrega:
 
 Para começar, faça um fork deste repositório, crie uma branch com o seu nome completo e depois envie-nos o pull request. Se você apenas clonar o repositório não vai conseguir fazer push e depois vai ser mais complicado fazer o pull request.
 
