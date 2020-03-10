@@ -1,4 +1,4 @@
-# Teste prático para Desenvolvedores PHP
+## Teste prático para Desenvolvedores PHP
 
 Este é o teste prático para candidatos à vaga de desenvolvimento PHP do Shosp.
 
