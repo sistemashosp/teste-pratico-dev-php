@@ -10,10 +10,12 @@ body
     flex-direction: column;
     min-height: 100%;
 }
-.imgBanner{
+.imgBanner
+{
 	width: 100%;
 }
-#btn_anterior,#btn_proximo{
+#btn_anterior,#btn_proximo
+{
 	width: 60px;
 	cursor: pointer;
 }

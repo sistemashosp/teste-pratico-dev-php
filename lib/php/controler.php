@@ -34,7 +34,6 @@ function listPatients(){
 class verifications{
 
 	public function checkCpf($cpf){
-    	// Extrai somente os números
    	 	$cpf = preg_replace( '/[^0-9]/is', '', $cpf );
     	if (strlen($cpf) != 11) {
         	return "";
@@ -87,7 +86,5 @@ class verifications{
 	   		return "";
 		}
 	}
-
 }
-
 ?>
