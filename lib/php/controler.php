@@ -1,5 +1,4 @@
 <?php
-
 if(isset($_GET['func'])){
     $function = $_GET['func'];
     if(function_exists($function)){
@@ -12,26 +11,21 @@ if(isset($_GET['func'])){
 function listPatients(){
 	$aRetornodados = array();
 	if(is_file("../../pacientes.csv")){
-		$verifications = new verifications;
-		$delimitador = ',';
-		$cerca = '"';
-		$f = fopen('../../pacientes.csv', 'r');
-		if ($f) { 
-    		$cabecalho = fgetcsv($f, 0, $delimitador, $cerca);
-    		while (!feof($f)) { 
-        		$linha = fgetcsv($f, 0, $delimitador, $cerca);
-        		if (!$linha) {
-            		continue;
-        		}
-        		$registro = array_combine($cabecalho, $linha);
-        		$cpf = $verifications->checkCpf($registro['cpf']);
-        		$email = $verifications->checkEmail($registro['email']);
-        		$nascimento = $verifications->checkNascimento($registro['datanascimento']);
-        		$aRetornodados[] = array("nome" =>$registro['nome'], "sobrenome"=>$registro['sobrenome'],"cpf" =>$registro['cpf'],"email" => $email, "datanascimento"=>$nascimento, "genero" =>$registro['genero'], "tiposanguineo"=>$registro['tiposanguineo'], "endereco"=>$registro['endereco'], "cidade"=>$registro['cidade'], "estado"=>$registro['estado'], "cep"=>$registro['estado']);
-    		}
-    		fclose($f);
-		}
-		return $aRetornodados;
+        $verifications = new verifications;
+		$handle = fopen("../../pacientes.csv", "r");
+        $linha = 0;
+        $n = 0;
+        while ($line = fgetcsv($handle, 1000, ",")) {
+            if ($linha++ == 0) {
+                continue;
+            }
+            $cpf = $verifications->checkCpf(utf8_encode($line[10]));
+            $email = $verifications->checkEmail(utf8_encode($line[2]));
+            $nascimento = $verifications->checkNascimento(utf8_encode($line[3]));
+            $aRetornodados[] = array("nome" =>utf8_encode($line[0]), "sobrenome"=>utf8_encode($line[1]),"cpf" =>$cpf,"email" => $email, "datanascimento"=>$nascimento, "genero" =>utf8_encode($line[4]), "tiposanguineo"=>utf8_encode($line[5]), "endereco"=>utf8_encode($line[6]), "cidade"=>utf8_encode($line[7]), "estado"=>utf8_encode($line[8]), "cep"=>$line[9]);
+        }
+        fclose($handle);
+		die(json_encode($aRetornodados));
 	}else{
 		echo"Arquivo Não localizado, Favor inserir o arquivlo Pacientes.csv na raiz do projeto.";
 	}
