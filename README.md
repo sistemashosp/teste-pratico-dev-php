@@ -31,6 +31,8 @@ A tabela deve ter as seguintes colunas:
 
 Para cada registro, caso o CPF, Email e Data de Nascimento não sejam válidos, não deve preencher a coluna.
 
+Os dados de conexão e acesso ao banco de dados foram enviados para seu email.
+
 Todos os arquivos estão neste branch
 
 ## Avaliação
