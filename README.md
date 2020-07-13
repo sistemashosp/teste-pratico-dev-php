@@ -28,6 +28,7 @@ Escrever o código no arquivo listar.php que fará a leitura dos dados no banco 
 A tabela deve ter as seguintes colunas: 
 - **PACIENTE:** Nome, Sobrenome, CPF, Email, Data Nascimento, Genero, Id do Tipo Sangúineo, Endereco, Cidade, Estado e CEP
 - **TIPO SANGUÍNEO:** ID e Descrição
+
 Veja o modelo: https://bit.ly/38RiyM1
 
 Para cada registro, caso o CPF, Email e Data de Nascimento não sejam válidos, não deve preencher a coluna.
