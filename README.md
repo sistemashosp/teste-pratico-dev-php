@@ -26,8 +26,8 @@ Escrever um código no arquivo cadastrar.php onde fará a leitura do arquivo pac
 Escrever o código no arquivo listar.php que fará a leitura dos dados no banco de dados e mostrará na tela em forma de tabela, com mesmo layout do arquivo CSV.
 
 A tabela deve ter as seguintes colunas: 
-**PACIENTE:** Nome, Sobrenome, CPF, Email, Data Nascimento, Genero, Id do Tipo Sangúineo, Endereco, Cidade, Estado e CEP 
-**TIPO SANGUÍNEO:** ID e Descrição
+- **PACIENTE:** Nome, Sobrenome, CPF, Email, Data Nascimento, Genero, Id do Tipo Sangúineo, Endereco, Cidade, Estado e CEP
+- **TIPO SANGUÍNEO:** ID e Descrição
 
 Para cada registro, caso o CPF, Email e Data de Nascimento não sejam válidos, não deve preencher a coluna.
 
