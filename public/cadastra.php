@@ -8,16 +8,6 @@ use TesteCSV\Connection as Connection;
 use TesteCSV\PacienteDB as PacienteDB;
 use TesteCSV\tipo_sanguineoDB as tipo_sanguineoDB;
 
-function formatCnpjCpf($value)
-{
-  $cnpj_cpf = preg_replace("/\D/", '', $value);
-  
-  if (strlen($cnpj_cpf) === 11) {
-    return preg_replace("/(\d{3})(\d{3})(\d{3})(\d{2})/", "\$1.\$2.\$3-\$4", $cnpj_cpf);
-  } 
-  
-  return preg_replace("/(\d{2})(\d{3})(\d{3})(\d{4})(\d{2})/", "\$1.\$2.\$3/\$4-\$5", $cnpj_cpf);
-}
 
 try {
     // Conexao com banco
@@ -46,7 +36,7 @@ while (($row = fgetcsv($fileHandle, 0, ",")) !== FALSE) {
         $sobrenome = $row[1];
         $cpf = $row[10];
         $email = filter_var($row[2], FILTER_VALIDATE_EMAIL);
-        $data_nascimento = date($row[3],'d-m-Y');
+        $data_nascimento = date($row[3]);
         $genero = $row[4];
         $endereco = $row[6];
         $cidade = $row[7];
