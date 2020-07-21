@@ -5,7 +5,11 @@
 		<title>Desafio Shosp</title>
 	<head>
 	<body>
-	<button type="button" herf="cadastra.php">Cadastrar</button>
-	<button type="button" herf="lista.php">Listar</button>
+	<form method="get" action="/public/cadastra.php">
+    	<button type="submit">Cadastrar</button>
+	</form>
+	<form method="get" action="/public/lista.php">
+		<button type="submit">Listar</button>
+	</form>
 	</body>
 </html>
