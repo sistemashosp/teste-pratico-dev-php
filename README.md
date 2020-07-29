@@ -51,7 +51,7 @@ Demonstrar habilidade em escrever programas com linguagem PHP utilizando conexã
 ## Prazo
 
 O tempo disponibilizado para o teste é de:
-- **480 minutos**
+- **360 minutos**
 
 ## Entrega:
 
