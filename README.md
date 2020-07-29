@@ -51,9 +51,7 @@ Demonstrar habilidade em escrever programas com linguagem PHP utilizando conexã
 ## Prazo
 
 O tempo disponibilizado para o teste é de:
-- 480 minutos para **Estagiário**.
-- 360 minutos para **Junior**.
-- 120 minutos para **Pleno**.
+- **480 minutos**
 
 ## Entrega:
 
