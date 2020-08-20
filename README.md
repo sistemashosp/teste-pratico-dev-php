@@ -33,9 +33,13 @@ Veja o modelo: https://bit.ly/38RiyM1
 
 Para cada registro, caso o CPF, Email e Data de Nascimento não sejam válidos, não deve preencher a coluna.
 
-Os dados de conexão e acesso ao banco de dados foram enviados para seu email.
-
 Todos os arquivos estão neste branch
+
+## Banco de dados
+
+Você pode usar um banco de dados local. Você pode utilizar Postgres ou Mysql, de acordo com sua preferência
+
+Seguem os script de criação das tabelas para [Mysql](https://drive.google.com/file/d/1q0d4L7xTytDAft50L-SL9orcRq6r7bA1/view?usp=sharing) e [Postgres](https://drive.google.com/file/d/1M5xA1pX5Qyys-yR5CDcDlMpYKJHDW3Ht/view?usp=sharing)
 
 ## Avaliação
 
@@ -51,7 +55,7 @@ Demonstrar habilidade em escrever programas com linguagem PHP utilizando conexã
 ## Prazo
 
 O tempo disponibilizado para o teste é de:
-- **360 minutos**
+- **24 horas**
 
 ## Entrega:
 
