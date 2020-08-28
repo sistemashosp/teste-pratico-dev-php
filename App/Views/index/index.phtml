@@ -1,0 +1,14 @@
+<form action="/salvarArquivo" method="post" enctype="multipart/form-data">
+
+    <input type="file" name="file" id="file"> <br> <br>
+    <button type="submit" name="submit">Enviar Planilha</button> <br>
+
+    <?php if(isset($this->view->sucesso) && $this->view->sucesso == 'sucesso'){ ?>
+
+        <span>Concluído com sucesso</span>
+
+    <?php } ?>
+
+</form>
+
+<a href="/getAll">Visualizar Pacientes</a>

@@ -1,0 +1,38 @@
+
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">Nome</th>
+      <th scope="col">Sobrenome</th>
+      <th scope="col">Email</th>
+      <th scope="col">Data Nascimento</th>
+      <th scope="col">Genero</th>
+      <th scope="col">Tipo Sanguíneo</th>
+      <th scope="col">Endereço</th>
+      <th scope="col">Cidade</th>
+      <th scope="col">Estado</th>
+      <th scope="col">CEP</th>
+      <th scope="col">CPF</th>
+    </tr>
+  </thead>
+  <tbody>
+    
+    <?php foreach ($this->view->pacientes as $key => $paciente){ ?>
+        <tr>
+        <td><?= $paciente['nome'] ?></td>
+        <td><?= $paciente['sobrenome']  ?></td>
+        <td><?= $paciente['email'] ?></td>
+        <td><?= $paciente['data_nascimento'] ?></td>
+        <td><?= $paciente['genero'] ?></td>
+        <td><?= $paciente['tipo_sanguineo'] ?></td>
+        <td><?= $paciente['endereco'] ?></td>
+        <td><?= $paciente['cidade'] ?></td>
+        <td><?= $paciente['estado'] ?></td>
+        <td><?= $paciente['cep'] ?></td>
+        <td><?= $paciente['CPF'] ?></td>
+        
+        </tr>
+    <?php } ?>
+    
+  </tbody>
+</table>

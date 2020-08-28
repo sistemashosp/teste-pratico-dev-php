@@ -1,0 +1,500 @@
+nome,sobrenome,email,datanascimento,genero,tiposanguineo,endereco,cidade,estado,cep,cpf,frkPlanoSaude
+Kai,Souza,KaiCavalcantiSouza@teleworm.us,10/14/2001,M,B+,Servid�o Edmundo Bittencourt 1123,Florian�polis,SC,88048-379,77002286986,345
+Renan,Barros,RenanRibeiroBarros@jourrapide.com,8/17/1945,M,A+,Rua Onofrio Freitas 1793,Itagua�,RJ,23820-280,60988891557,112
+Clara,Carvalho,ClaraLimaCarvalho@fleckens.hu,10/8/1960,F,A+,Rua Costa Aguiar 1893,Campinas,SP,13010-061,62347121421,231
+Enzo,Correia,EnzoSantosCorreia@einrot.com,11/26/1998,M,A+,Caminho do Calemba 61,Rio de Janeiro,RJ,22783-310,68411711609,112
+Emilly,Pereira,EmillyOliveiraPereira@cuvox.de,1/4/1977,F,O+,Rua Paulo Firmeza 1996,Fortaleza,CE,60130-421,80548516006,323
+Tom�s,Pereira,TomasSousaPereira@armyspy.com,11/1/1939,M,B+,Rua Vit�ria 726,Jo�o Monlevade,MG,35930-270,40610209,323
+Melissa,Ferreira,MelissaCorreiaFerreira@fleckens.hu,6/19/1987,F,O+,Rua Augusto Ribas 1775,Ponta Grossa,PR,84010-300,4060896551,45
+Lara,Castro,LaraCarvalhoCastro@armyspy.com,10/2/1947,F,B+,Rua Zen�bio Lins 596,Recife,PE,50711-300,65919736640,231
+Felipe,Melo,FelipeCostaMelo@einrot.com,1/20/1992,M,AB+,Via 24 949,Formosa,GO,73802-416,55842045362,145
+Carlos,Barros,CarlosCunhaBarros@armyspy.com,7/18/1973,M,B+,Rua Am�lia Furlanetto dos Santos 292,Sumar�,SP,13179-231,91320210201,345
+Camila,Silva,CamilaCostaSilva@einrot.com,12/25/1950,F,A+,Rua Lago 1875,Olinda,PE,53180-030,17471193182,986
+Diogo,Souza,DiogoGomesSouza@rhyta.com,8/19/1951,M,O+,Avenida Padre Salustio Rodrigues Machado 1453,Len��is Paulista,SP,18682-080,61969450843,389
+Leonor,Barbosa,LeonorMartinsBarbosa@jourrapide.com,1/2/1949,F,A+,Rua Gard�nia 1951,Americana,SP,13467-194,15292045420,345
+�gatha,Araujo,AgathaDiasAraujo@rhyta.com,11/11/1965,F,B+,Rua Natalino Vicente Ferreira 1445,Campo Grande,MS,79070-452,19708379182,956
+Bruno,Ribeiro,BrunoCavalcantiRibeiro@einrot.com,9/11/1987,M,A+,Rua Nair Figueiredo Dobes 445,Corumb�,MS,79321-512,35957874639,231
+Luis,Rocha,LuisSouzaRocha@jourrapide.com,1/23/1977,M,O+,Rua Santo Estev�o 452,Gravat�,PE,55643-035,11376099586,98
+Diego,Pereira,DiegoRodriguesPereira@dayrep.com,10/2/1945,M,O+,Rua Santa Edwirge 1413,Serra,ES,29173-074,38023447580,91
+Eduarda,Rodrigues,EduardaSilvaRodrigues@dayrep.com,3/26/1937,F,A+,Rua Interna 18 396,Montes Claros,MG,39403-144,10496509993,986
+Bruna,Barbosa,BrunaPintoBarbosa@jourrapide.com,7/27/1988,F,A+,Rua Conde de Leopoldina 1388,Rio de Janeiro,RJ,20930-460,14720978312,231
+Breno,Lima,BrenoAlvesLima@cuvox.de,9/7/1986,M,AB+,Quadra SQS 414 Bloco S 1779,Bras�lia,DF,70297-190,36558373998,986
+Maria,Ferreira,MariaSouzaFerreira@cuvox.de,12/24/1973,F,B+,Rua Jos� Alves Soares 98,Guarapari,ES,29216-340,96824885835,231
+J�lia,Alves,JuliaSilvaAlves@jourrapide.com,6/13/1988,F,A+,Rua Santo Gabriel 1117,Paranagu�,PR,83209-656,90653481667,986
+Renan,Cunha,RenanMeloCunha@dayrep.com,6/1/1986,M,O+,Avenida Dom H�lder C�mara 1280,Recife,PE,51220-120,81695524608,323
+Joao,Ferreira,JoaoCavalcantiFerreira@teleworm.us,3/4/1969,M,B+,Rua Doutor Moacir Martins 222,Londrina,PR,86040-330,40092294707,895
+Lu�s,Rocha,LuisPereiraRocha@gustr.com,6/15/1995,M,B+,Rua Seis 152,V�rzea Grande,MT,78149-298,50714034207,986
+Fernanda,Souza,FernandaSantosSouza@superrito.com,9/1/1969,F,O+,Rua Alzira Cez�rio de Oliveira 1940,S�o Jos� do Rio Preto,SP,15047-031,65402883360,112
+Mateus,Rodrigues,MateusCostaRodrigues@jourrapide.com,6/28/1958,M,A+,Rua Guilherme 1820,Queimados,RJ,26385-440,4505086178,98
+Kauan,Pereira,KauanOliveiraPereira@gustr.com,12/19/1968,M,O-,Estrada do Mandu 5,Salvador,BA,41250-400,89502677560,231
+F�bio,Ferreira,FabioAzevedoFerreira@superrito.com,4/30/1939,M,B+,Rua B 36,Rondon�polis,MT,78745-130,94958092153,389
+Brenda,Rodrigues,BrendaAzevedoRodrigues@armyspy.com,10/17/1935,F,A+,Rua Cassemiro Antunes Cevey 1235,Lages,SC,88516-050,74573843086,323
+Isabela,Alves,IsabelaCorreiaAlves@cuvox.de@g.com,3/2/2003,F,A+,Rua 288 1779,Crici�ma,SC,88815-110,92446871780,91
+Sofia,Sousa,SofiaCorreiaSousa@jourrapide.com,12/24/1989,F,O+,Avenida S�o Paulo 239,Aparecida de Goi�nia,GO,74905-770,36104902413,145
+Isabela,Ribeiro,IsabelaOliveiraRibeiro@jourrapide.com@g.com,12/20/1990,F,B+,Rua da Paz 147,Campo Mour�o,PR,87306-400,32765298661,45
+Matheus,Cavalcanti,MatheusOliveiraCavalcanti@teleworm.us,10/30/1989,M,A-,Avenida Aristides Bellodi 1901,Jaboticabal,SP,14887-206,14604141878,895
+Paulo,Ribeiro,PauloSousaRibeiro@cuvox.de,6/24/1981,M,A+,Rua Sabino Pires 1414,Fortaleza,CE,60150-090,5114111388,122
+Matilde,Barros,MatildeCardosoBarros@einrot.com,7/12/1990,F,A-,Rua Vinte e Tr�s 1688,Itu,SP,13312-754,52957151758,345
+Vinicius,Azevedo,ViniciusBarbosaAzevedo@dayrep.com,10/30/1992,M,AB+,Rua Maitaca 1106,Ipatinga,MG,35162-510,98573054743,145
+Carla,Barros,CarlaCarvalhoBarros@einrot.com,7/8/1951,F,B+,Rua Carlos Rocha 1677,Niter�i,RJ,24358-370,25048788931,122
+Nicole,Pinto,NicoleSilvaPinto@dayrep.com,6/22/1950,F,B+,Rua Andr� Corr�a 1924,Joinville,SC,89229-582,22028037261,895
+Eduarda,Lima,EduardaSantosLima@fleckens.hu,6/21/1984,F,O+,Alameda S�o Boa Ventura 636,Niter�i,RJ,24120-196,12743258896,91
+Kau�,Cardoso,KauaRodriguesCardoso@armyspy.com,10/29/1941,M,A+,Rua Maria Isabel Concei��o Oliveira 1429,Sorocaba,SP,18017-276,15508430601,956
+Alex,Carvalho,AlexRibeiroCarvalho@cuvox.de,3/15/1944,M,A+,Rua 16 786,Manaus,AM,69086-170,69112777528,323
+Leonardo,Correia,LeonardoCarvalhoCorreia@jourrapide.com,12/17/1950,M,B+,Rua BW-16 1356,Itabira,MG,35902-079,30746425139,231
+Marina,Martins,MarinaSouzaMartins@dayrep.com,8/14/1988,F,O+,Servid�o Marciano Pedro Severino 462,Florian�polis,SC,88058-777,9911478394,895
+Guilherme,Cardoso,GuilhermeRochaCardoso@cuvox.de,4/23/1981,M,A+,Rua Vinte e Cinco 612,Uberaba,MG,38051-434,60155308394,145
+Beatrice,Barros,BeatriceFernandesBarros@gustr.com@g.com,10/26/1956,F,O+,Rua Foz do Momoria 305,Campo Grande,MS,79044-800,25838193727,986
+�gatha,Correia,AgathaLimaCorreia@rhyta.com,8/18/1945,F,A+,Rua Quinze 1634,Sete Lagoas,MG,35703-266,17044427880,895
+Tom�s,Carvalho,TomasGomesCarvalho@jourrapide.com,7/6/1968,M,A+,Quadra Quadra 106 Conjunto 05 700,Recanto das Emas,DF,72601-209,3554637840,323
+Beatriz,Lima,BeatrizCarvalhoLima@jourrapide.com,3/4/1954,F,B+,Rua Pichita Cohen 1311,Parintins,AM,69151-592,57262716107,112
+Clara,Barros,ClaraAzevedoBarros@dayrep.com,11/19/1936,F,B+,Avenida Engenheiro Correia Lima 1732,Goi�nia,GO,74660-420,63357565790,345
+Kaua,Azevedo,KauaFernandesAzevedo@superrito.com,11/2/1953,M,O+,Rua Setenta e Um 1305,Petrolina,PE,56309-700,5879654796,986
+Thiago,Barros,ThiagoCastroBarros@rhyta.com,1/19/1957,M,A+,Rua Manoel dos Santos Martins 369,Po�os de Caldas,MG,37704-285,60455527920,389
+Isabela,Cavalcanti,IsabelaPereiraCavalcanti@rhyta.com@g.com,3/6/1940,F,AB+,Travessa Apr�gio de S� 129,Tubar�o,SC,88704-610,95444496712,45
+Marina,Melo,MarinaCarvalhoMelo@gustr.com,12/7/1994,F,O+,Vila do Trilho 1761,Salvador,BA,40231-160,21424957966,389
+Emilly,Goncalves,EmillyBarrosGoncalves@einrot.com,6/26/1934,F,O+,Rua Afr�nio Peixoto 1954,Joinville,SC,89205-530,77034561010,112
+Julieta,Castro,JulietaFernandesCastro@fleckens.hu,8/4/1954,F,A+,Rua Pedro Costa 1320,S�o Jos� do Rio Preto,SP,15043-260,41512984019,389
+Beatrice,Rocha,BeatriceAlvesRocha@einrot.com@g.com,5/9/1977,F,O+,Rua Ipi�u 1318,Recife,PE,50110-335,54443693971,98
+F�bio,Oliveira,FabioCorreiaOliveira@teleworm.us,12/25/1939,M,B+,Rua Vargedo 1610,Nova Igua�u,RJ,26051-520,55929664315,122
+Melissa,Almeida,MelissaGomesAlmeida@jourrapide.com,5/22/1995,F,AB+,Travessa Givanildo da Silva 1844,S�o Paulo,SP,04845-185,17471405627,98
+Beatriz,Correia,BeatrizCardosoCorreia@dayrep.com,12/11/1958,F,A+,Caminho da Covanca do Fragoso 248,Rio de Janeiro,RJ,23031-560,54417910049,45
+Samuel,Correia,SamuelPintoCorreia@teleworm.us,9/22/1989,M,B+,Rua Castro Alves 99,Uberl�ndia,MG,38412-042,52590952783,122
+Guilherme,Lima,GuilhermePintoLima@gustr.com,10/4/1955,M,O+,Rua da Fraternidade 965,Altamira,PA,68377-550,76463251712,895
+Yasmin,Carvalho,YasminSantosCarvalho@rhyta.com,10/5/1998,F,AB+,Pra�a S�o Benedito 1562,Salvador,BA,41940-890,52045414388,345
+Rafaela,Gomes,RafaelaCarvalhoGomes@fleckens.hu,2/14/1982,F,A+,Vila Bomfim 372,Crato,CE,63113-020,30974312339,112
+Bruno,Cunha,BrunoPintoCunha@cuvox.de,6/2/1972,M,A+,Avenida Pedro Teixeira 826,Manaus,AM,69040-000,8238836557,389
+Martim,Almeida,MartimRodriguesAlmeida@cuvox.de,7/10/1952,M,A+,Rua Beco da Paz 302,Teresina,PI,64055-465,24028203902,231
+Vitor,Cardoso,VitorSilvaCardoso@dayrep.com,5/23/1981,M,B+,Rua do Atletismo 1690,Londrina,PR,86056-300,71515918025,895
+Joao,Pinto,JoaoDiasPinto@teleworm.us,8/24/1997,M,A+,Rua Maria Veltri 248,S�o Paulo,SP,03534-020,22708556630,231
+Luis,Rocha,LuisRodriguesRocha@armyspy.com,10/23/1976,M,O+,Avenida Waldemar Alves 1558,Ara�atuba,SP,16072-175,82259439292,98
+Beatriz,Melo,BeatrizCarvalhoMelo@fleckens.hu,6/6/1992,F,B+,Beco F 945,Porto Alegre,RS,90820-280,86052478608,956
+Samuel,Rocha,SamuelAraujoRocha@armyspy.com,7/26/1945,M,B+,Rua Tapera 1321,Itapecerica da Serra,SP,06853-280,2646415079,231
+Kaua,Araujo,KauaRibeiroAraujo@dayrep.com,12/29/1980,M,A+,Rua Niter�i 1223,Passo Fundo,RS,99042-540,77838621879,345
+Nicolas,Cavalcanti,NicolasBarrosCavalcanti@einrot.com,7/14/1932,M,O+,Rua Vereador Adeodato Volpi 64,Curitiba,PR,81110-050,36632728936,323
+Gustavo,Cardoso,GustavoBarbosaCardoso@gustr.com,8/23/1969,M,A+,Rua Joaquim Carboni 34,Ja�,SP,17201-240,62740823525,91
+�gatha,Silva,AgathaLimaSilva@gustr.com,9/1/2000,F,O+,Pra�a Prefeito Alaor Prata 1542,Rio de Janeiro,RJ,20785-250,88195985238,45
+Pedro,Ribeiro,PedroCavalcantiRibeiro@superrito.com,5/25/1965,M,O+,Rua Doutor Afonso Vergueiro 968,S�o Paulo,SP,02116-002,92313865657,231
+Nicolas,Melo,NicolasFernandesMelo@fleckens.hu,9/11/1938,M,AB+,Rua Oito 1299,Juazeiro,BA,48907-010,67695039802,98
+Melissa,Carvalho,MelissaPereiraCarvalho@cuvox.de,6/5/1933,F,B+,Rua Carira 1378,Aracaju,SE,49085-090,26548888430,145
+Emilly,Rodrigues,EmillyCastroRodrigues@cuvox.de,8/28/1984,F,B+,Rua C 336,Rio de Janeiro,RJ,23060-530,84902677822,323
+�gatha,Alves,AgathaCostaAlves@superrito.com,6/27/1990,F,B+,Rua B 9 671,Goi�nia,GO,74365-370,22322511447,122
+Ant�nio,Pereira,AntonioGoncalvesPereira@jourrapide.com,8/13/1949,M,O+,Rua Jos� Vaz da Costa 1931,Garanhuns,PE,55296-150,17756541251,323
+Manuela,Oliveira,ManuelaAlmeidaOliveira@armyspy.com,2/9/1972,F,O+,Avenida C 3 755,Goi�nia,GO,74265-030,10308399137,323
+Manuela,Alves,ManuelaCostaAlves@superrito.com,1/13/1962,F,O+,Avenida Francisco Pereira Lopes 535,S�o Carlos,SP,13561-250,84854627182,112
+Lu�s,Azevedo,LuisSilvaAzevedo@teleworm.us,5/31/1961,M,O+,Rua S�o F�lix 1965,Aparecida de Goi�nia,GO,74984-420,144419424,122
+Rafael,Cavalcanti,RafaelSantosCavalcanti@armyspy.com,5/24/2003,M,A+,Rua Doutor Barbosa de Andrade 1229,Campinas,SP,13070-141,35598724138,91
+Kauan,Cavalcanti,KauanBarbosaCavalcanti@armyspy.com,9/21/1959,M,A+,Rua Djanira 281,Petr�polis,RJ,25710-290,36880099831,45
+Emily,Araujo,EmilyCarvalhoAraujo@cuvox.de,9/8/1987,F,A+,Rua Domingos Barbe 172,Osasco,SP,06246-172,31550138855,112
+Julieta,Ribeiro,JulietaCastroRibeiro@fleckens.hu,2/1/1993,F,O+,Rua Sete 1930,Itu,SP,13308-463,59142710375,122
+Emily,Costa,EmilyFerreiraCosta@einrot.com,5/7/1986,F,O+,Rua Charles Murray 1966,S�o Paulo,SP,04358-040,23442136601,895
+Sarah,Goncalves,SarahRodriguesGoncalves@dayrep.com,3/21/1938,F,A+,Rua Amaragi 837,Belford Roxo,RJ,26116-750,54971897682,91
+Gustavo,Martins,GustavoMeloMartins@dayrep.com,10/9/1954,M,O+,Rua Nunes Freire 1131,S�o Lu�s,MA,65055-390,78643223107,145
+Carla,Carvalho,CarlaFerreiraCarvalho@rhyta.com,9/24/1944,F,O+,Rua N�lio Abreu 23,Blumenau,SC,89035-170,25837229647,389
+Marina,Dias,MarinaBarbosaDias@einrot.com,4/21/1945,F,B+,Rua Amadeu Alice 290,Curitiba,PR,82620-100,7376470190,122
+Brenda,Souza,BrendaSousaSouza@fleckens.hu,7/25/1967,F,A+,Rua Am�lia Sanches Matheus 1083,Presidente Prudente,SP,19045-020,99283789083,231
+Leonardo,Ferreira,LeonardoOliveiraFerreira@dayrep.com,1/23/1954,M,O+,Avenida Tenente-Coronel Duarte 381,Cuiab�,MT,78020-450,57036447206,45
+Emily,Cunha,EmilyLimaCunha@jourrapide.com,4/11/1971,F,O+,Rua Ernesto Roberto 741,Limeira,SP,13482-482,53387881100,122
+Marcos,Castro,MarcosGomesCastro@dayrep.com,12/18/1941,M,A+,Avenida Doutor David Zoilo Morandini 1800,Jundia�,SP,13208-380,38883182626,345
+Vit�r,Araujo,VitorCavalcantiAraujo@rhyta.com,10/5/2000,M,O-,Rua Silvana Aparecida de Abreu 769,Hortol�ndia,SP,13185-260,59178969417,956
+Rodrigo,Carvalho,RodrigoRibeiroCarvalho@armyspy.com,9/4/1965,M,O+,Rua Pl�cido de Castro 1698,Santo Andr�,SP,09220-430,27847045486,145
+Rebeca,Almeida,RebecaPintoAlmeida@fleckens.hu,3/30/1934,F,O-,Rua Fritz Reimann 474,Guarulhos,SP,07044-020,75140088029,112
+Melissa,Silva,MelissaSouzaSilva@fleckens.hu,6/3/2002,F,AB+,Rua Capivari 792,Campinas,SP,13050-571,47345911640,986
+Renan,Souza,RenanRochaSouza@superrito.com,4/14/1969,M,B+,2� Avenida Bahia 775,Salvador,BA,41207-865,52868191924,956
+Let�cia,Pinto,LeticiaCarvalhoPinto@armyspy.com,9/21/1986,F,A+,Rua Pedro Teixeira 651,Tucuru�,PA,68458-410,27704000020,231
+Leonardo,Oliveira,LeonardoRochaOliveira@gustr.com,1/31/1967,M,O+,Rua S�o Felisbino 260,Canoas,RS,92020-460,91847229328,323
+Julian,Pinto,JulianCostaPinto@fleckens.hu,1/18/1946,M,O+,Rua Jos� Martins Barbosa 1419,Nova Friburgo,RJ,28625-450,53365422960,145
+Luiza,Cavalcanti,LuizaSousaCavalcanti@einrot.com,10/30/1983,F,B+,Travessa Trajano de Moraes 1154,Niter�i,RJ,24230-380,24798100625,956
+Gustavo,Cardoso,GustavoSilvaCardoso@dayrep.com,3/10/1978,M,O-,Rua Ipojuca 1626,Jaboat�o dos Guararapes,PE,54480-310,93846056200,112
+Aline,Ribeiro,AlineCavalcantiRibeiro@superrito.com,6/18/1972,F,A+,Alameda Laos 470,Barretos,SP,14784-061,13943382281,389
+Livia,Santos,LiviaRochaSantos@dayrep.com,9/13/1984,F,O+,Rua Manuel Soares 638,S�o Paulo,SP,03716-190,21258094193,323
+Eduarda,Azevedo,EduardaBarrosAzevedo@jourrapide.com,8/13/1937,F,A-,Pra�a Carlos Gomes 1981,S�o Jos� dos Campos,SP,12216-010,39127314979,986
+Isabelle,Souza,IsabelleDiasSouza@dayrep.com,11/21/1966,F,A+,Pra�a Maria do C�u 1724,S�o Paulo,SP,02337-112,65008065220,389
+Nicolash,Carvalho,NicolashCunhaCarvalho@cuvox.de,3/12/1949,M,O+,Rua Leonardo da Vinci 1200,Goi�nia,GO,74325-020,90177952717,112
+Igor,Santos,IgorCarvalhoSantos@rhyta.com,3/9/1993,M,O+,Rua Riachuelo 180,Salvador,BA,40015-430,27845959006,231
+Vin�cius,Azevedo,ViniciusOliveiraAzevedo@teleworm.us,2/21/1966,M,O+,Estrada Jos� Maria Salgado 1072,Jacare�,SP,12335-220,8367495616,122
+Guilherme,Almeida,GuilhermeGoncalvesAlmeida@cuvox.de,2/25/2004,M,B-,Rua San Juan 1024,Francisco Morato,SP,07957-010,43169523740,91
+Thiago,Almeida,ThiagoMeloAlmeida@gustr.com,5/17/1984,M,A+,Rua BW-04 492,Itabira,MG,35902-067,387243593,986
+Beatrice,Gomes,BeatriceSilvaGomes@teleworm.us@g.com,10/7/1984,F,O+,Rua �ngela M. Malheiro 1327,V�rzea Grande,MT,78115-822,94242314906,98
+Lara,Carvalho,LaraMartinsCarvalho@cuvox.de,7/7/1982,F,A+,Rua Jorge Washington 640,S�o Paulo,SP,03437-080,37639044685,986
+J�lia,Gomes,JuliaDiasGomes@rhyta.com,8/18/2003,F,A+,Rua 122 1867,An�polis,GO,75100-660,25101273902,986
+Matilde,Cavalcanti,MatildeGoncalvesCavalcanti@jourrapide.com,1/29/1958,F,A+,Rua 5 MP 790,Rio Claro,SP,13506-175,14081401608,345
+Eduarda,Ribeiro,EduardaOliveiraRibeiro@dayrep.com,6/10/1995,F,O+,Avenida Norberto Braz 483,Guarulhos,SP,07133-150,65319647824,112
+Emily,Santos,EmilyPintoSantos@gustr.com,12/13/1944,F,B+,Rua Profeta Joel 122,Umuarama,PR,87508-046,43159503003,122
+Vit�ria,Santos,VitoriaRochaSantos@fleckens.hu,5/3/1935,F,O-,Beco Uirapuru 1399,Manaus,AM,69075-790,75407710110,145
+Carla,Barros,CarlaCardosoBarros@fleckens.hu,8/14/1962,F,B+,Rua Rafael Jos� Silva 1139,Belo Horizonte,MG,31330-610,72680946553,389
+Ant�nio,Oliveira,AntonioCardosoOliveira@gustr.com,9/2/1954,M,A-,Rua Um 1278,Montes Claros,MG,39404-504,70445688580,323
+Gabrielle,Rodrigues,GabrielleDiasRodrigues@fleckens.hu,6/11/1985,F,O+,Rua Coronel Ferreira 553,Cabo Frio,RJ,28915-370,78418481455,98
+Kai,Almeida,KaiBarbosaAlmeida@einrot.com,4/8/1945,M,O-,Travessa Jos� Cavalcanti 693,Igarassu,PE,53630-720,57999657603,323
+Clara,Lima,ClaraAraujoLima@cuvox.de,4/13/1997,F,O+,Rua Sn-04 665,Ananindeua,PA,67140-370,76838336146,45
+Brenda,Almeida,BrendaRochaAlmeida@jourrapide.com,5/9/1983,F,A-,Quadra QNN 31 273,Ceil�ndia,DF,72225-310,7158140105,345
+Beatriz,Santos,BeatrizGomesSantos@superrito.com,10/8/2000,F,A+,Rua L�cio Ribeiro dos Santos 265,Nil�polis,RJ,26510-120,18979331690,895
+Nicolash,Rodrigues,NicolashAraujoRodrigues@gustr.com,7/11/2000,M,A+,Rua Salvador 74,Santa Cruz do Sul,RS,96845-620,16971061705,45
+Vit�r,Barbosa,VitorAlvesBarbosa@einrot.com,8/19/1984,M,A+,Rua MG-010 1793,Aparecida de Goi�nia,GO,74965-500,26454737926,345
+Vit�r,Correia,VitorCarvalhoCorreia@cuvox.de,12/3/1968,M,A+,Rua Bar�o de S�o Jo�o Nepomuceno 959,Juiz de Fora,MG,36010-081,61019053305,956
+Tha�s,Araujo,ThaisAlmeidaAraujo@armyspy.com,9/26/1996,F,B+,Rua 163 20,Manaus,AM,69097-443,12993609980,112
+Enzo,Dias,EnzoPintoDias@armyspy.com,11/23/1942,M,O-,Rua Itamb� 418,Fortaleza,CE,60831-460,44874002790,895
+Anna,Silva,AnnaDiasSilva@rhyta.com,12/23/1957,F,O+,Rua Jo�o Francisco Lopes 832,Ponta Grossa,PR,84052-290,29068356330,895
+Fernanda,Santos,FernandaRochaSantos@superrito.com,8/15/1946,F,O-,Pra�a Coronel Ant�nio Alexandrino Gorja 1640,Campinas,SP,13044-080,26179820414,112
+Paulo,Sousa,PauloBarbosaSousa@gustr.com,8/30/1958,M,O+,Vila Oper�ria 672,Salvador,BA,40365-135,50222905026,122
+Diogo,Pereira,DiogoAlmeidaPereira@cuvox.de,10/15/1969,M,O+,Rua Libra 461,Rio de Janeiro,RJ,23010-500,48119581520,122
+Kau�,Silva,KauePintoSilva@teleworm.us,9/4/1975,M,O+,Rua Coronel Laurentino Morais 678,Mossor�,RN,59614-480,71230660496,98
+Martim,Rodrigues,MartimCorreiaRodrigues@rhyta.com,10/27/1996,M,A+,Rua Rodagem 1600,Salvador,BA,40726-310,51346379548,323
+J�lia,Silva,JuliaPereiraSilva@superrito.com,12/8/1935,F,A+,Quadra QNO 18 Conjunto 73 1274,Ceil�ndia,DF,72260-873,64360026854,45
+Douglas,Azevedo,DouglasCastroAzevedo@gustr.com,9/2/2002,M,B+,Rua Porto Velho 190,Maring�,PR,87010-020,69201563426,986
+Rebeca,Ribeiro,RebecaRodriguesRibeiro@gustr.com,6/25/1939,F,A+,Rua Grou 1533,Ponta Grossa,PR,84046-300,24346741940,45
+Erick,Pereira,ErickRochaPereira@dayrep.com,2/5/1965,M,O+,Rua das Araras 819,S�o Jos� dos Pinhais,PR,83045-620,80247441716,98
+Nicole,Rodrigues,NicoleRibeiroRodrigues@einrot.com,2/3/1961,F,A+,Rua Tiradentes 1700,Governador Valadares,MG,35020-610,75261229901,98
+Bruna,Ferreira,BrunaAraujoFerreira@fleckens.hu,10/10/1937,F,O+,4� Travessa do Norte 1732,Salvador,BA,41905-680,11771900792,895
+Andr�,Almeida,AndreMartinsAlmeida@armyspy.com,7/18/1945,M,B+,Alameda Praia de Pontal 1830,Salvador,BA,41600-050,39970418491,345
+Mariana,Fernandes,MarianaBarrosFernandes@jourrapide.com,12/17/1940,F,A+,Rua Elisabeth Vais 299,Sorocaba,SP,18052-730,16400082255,895
+Enzo,Barros,EnzoMartinsBarros@gustr.com,6/20/1983,M,B+,Rua Pioneiro Jos� Pinto 447,Reden��o,PA,68553-310,30792961412,956
+Vit�ria,Barbosa,VitoriaRochaBarbosa@jourrapide.com,12/1/1947,F,B+,Rua Carlos Menolli 960,Londrina,PR,86072-310,52648692193,91
+Luana,Barbosa,LuanaCarvalhoBarbosa@fleckens.hu,6/19/1949,F,A+,Rua Sertan�polis 964,Recife,PE,50721-540,19511106767,389
+Alex,Barbosa,AlexGomesBarbosa@cuvox.de,5/8/1999,M,O+,Rua Solim�es 1663,Montes Claros,MG,39404-217,72608452604,895
+Nicole,Lima,NicoleGomesLima@armyspy.com,1/12/1940,F,O+,Rua 25 586,Rio Verde,GO,75906-531,87052374919,345
+J�lio,Ferreira,JulioCastroFerreira@teleworm.us,5/27/2003,M,AB+,Rua Ara�jo Leite 1338,Bauru,SP,17012-055,77809981854,91
+Matilde,Melo,MatildeBarbosaMelo@cuvox.de,12/21/1950,F,B+,Rua Vinte e Nove de Julho 1828,Vila Velha,ES,29114-100,66191733577,45
+Julia,Costa,JuliaDiasCosta@armyspy.com,7/3/1946,F,O+,Quadra QN 09 Conjunto 02 1229,Riacho Fundo,DF,71805-802,67440061828,122
+Rebeca,Ribeiro,RebecaCarvalhoRibeiro@gustr.com,6/4/1941,F,O+,Rua Floriano Peixoto 362,Vit�ria da Conquista,BA,45045-030,31725203154,323
+Vitoria,Fernandes,VitoriaAzevedoFernandes@dayrep.com,8/18/1956,F,O+,Rua das Tai�vas 1433,Campinas,SP,13064-784,87665771017,345
+Marcos,Azevedo,MarcosMartinsAzevedo@superrito.com,8/21/1934,M,O+,Rua Oroz 1737,Betim,MG,32686-265,71861975740,323
+Erick,Sousa,ErickMartinsSousa@armyspy.com,6/21/1938,M,O+,Rua Onze 1772,Birig�i,SP,16202-228,20102441090,231
+Lavinia,Lima,LaviniaCardosoLima@teleworm.us,12/2/1980,F,O+,Avenida Paris 127,An�polis,GOF,75143-510,96480684451,895
+Nicole,Rocha,NicoleCastroRocha@jourrapide.com,12/3/1980,F,O+,Rua Nestor Rosumek 355,Sorocaba,SP,18072-042,86611944079,112
+Kau�,Goncalves,KauaFernandesGoncalves@teleworm.us,9/23/1973,M,O+,Rua Ariel 1247,S�o Paulo,SP,08331-080,44411666138,345
+Alice,Lima,AliceMartinsLima@armyspy.com,10/11/1978,F,A+,Rua Florestina 37,Araguari,MG,38443-014,31956263497,145
+Gabriel,Melo,GabrielFerreiraMelo@jourrapide.com,4/6/1975,M,O+,Avenida Jo�o Wallig 860,Porto Alegre,RS,91340-001,6071720290,389
+Sarah,Castro,SarahGomesCastro@teleworm.us,8/24/1969,F,O+,Rua D 1329,Fortaleza,CE,60543-650,6188731712,122
+Carlos,Barros,CarlosCastroBarros@fleckens.hu,3/29/1990,M,B+,Rua das Begonhas 1671,Manaus,AM,69088-060,86866621291,956
+Amanda,Costa,AmandaBarrosCosta@gustr.com,12/27/1967,F,A+,Rua Trinta e Quatro 246,Campinas,SP,13065-196,16561312007,45
+Aline,Almeida,AlineRibeiroAlmeida@armyspy.com,8/23/1952,F,B+,Rua Mauro J�nior 789,Rio Verde,GO,75906-660,64432600403,986
+Samuel,Correia,SamuelGomesCorreia@rhyta.com,4/7/1957,M,B+,Vila Jo�o Agripino 13,Jo�o Pessoa,PB,58020-735,48023788825,112
+Miguel,Ferreira,MiguelGomesFerreira@dayrep.com,2/2/1946,M,B+,Rua Jacob Buck 1616,Jaragu� do Sul,SC,89251-160,20080804985,389
+Murilo,Cunha,MuriloSousaCunha@fleckens.hu,3/23/1962,M,A+,Rua Santa F� 362,Fortaleza,CE,60874-140,67199567871,323
+Vit�r,Lima,VitorSilvaLima@dayrep.com,11/10/1958,M,O+,Rua Treze de Maio 338,Toledo,PR,85909-637,97550110050,98
+Beatriz,Melo,BeatrizAlvesMelo@cuvox.de,12/22/1956,F,A+,Rua SD-018 621,An�polis,GO,75073-420,95545946071,323
+Maria,Rocha,MariaSouzaRocha@fleckens.hu,1/3/1942,F,AB+,Rua Urubupung� 551,Salvador,BA,40296-180,23252091992,145
+Vitoria,Barros,VitoriaGoncalvesBarros@teleworm.us,5/5/1951,F,B+,Rua S�o Geraldo do Araguaia 703,Reden��o,PA,68550-600,75720042709,231
+Maria,Oliveira,MariaPereiraOliveira@superrito.com,3/30/1946,F,O+,Rua Vinte e Cinco 1934,Belo Horizonte,MG,31770-250,54777749592,112
+Arthur,Correia,ArthurRochaCorreia@superrito.com,10/7/1948,M,A+,Rua Arthur Kennedy 739,S�o Paulo,SP,08470-245,36134689564,986
+Lavinia,Silva,LaviniaBarrosSilva@rhyta.com,9/24/2000,F,A+,Rua Estrada de Ferro 481,Queimados,RJF,26340-080,59125723316,895
+Isabelle,Gomes,IsabelleMartinsGomes@jourrapide.com,1/14/1967,F,A+,Rua Luiz Jos� da Silva 1609,Teres�polis,RJ,25976-125,11858443172,986
+Andr�,Castro,AndreAlmeidaCastro@armyspy.com,5/9/1946,M,A+,Rua Jos� Batista de Oliveira 192,Fortaleza,CE,60860-840,8605708948,231
+Matheus,Martins,MatheusGomesMartins@teleworm.us,2/11/1950,M,O+,Rua do Colono 1901,Francisco Beltr�o,PR,85606-320,70153293799,323
+Sophia,Cavalcanti,SophiaGoncalvesCavalcanti@superrito.com,9/1/2002,F,AB+,Rua Vinte e Cinco de Setembro 56,S�o Paulo,SP,08072-065,23869852534,112
+Rafael,Gomes,RafaelRodriguesGomes@teleworm.us,7/30/1960,M,O+,Acesso Um 1598,Porto Alegre,RS,91795-140,79907107816,45
+Isabelle,Silva,IsabelleMartinsSilva@cuvox.de,10/13/1970,F,A+,Estrada Para�so 1530,Nova Igua�u,RJ,26063-270,81134231768,112
+Melissa,Correia,MelissaSousaCorreia@teleworm.us,5/14/1950,F,O+,Rua Alfredo Galo Fatoretto 370,Mau�,SP,09330-406,73940227900,91
+Leonor,Melo,LeonorFerreiraMelo@jourrapide.com,1/23/1995,F,A+,Rua Dois 439,S�o Bernardo do Campo,SP,09831-511,68627732671,122
+Clara,Azevedo,ClaraCorreiaAzevedo@gustr.com,11/13/1991,F,B+,Rua Dois de Julho 1135,Barreiras,BA,47807-050,55806405281,145
+Leonardo,Alves,LeonardoSouzaAlves@cuvox.de,3/17/1987,M,O+,Rua Doutor Felipe Alencastro 1780,Itaja�,SC,88305-630,35469357724,986
+Lucas,Rocha,LucasCostaRocha@teleworm.us,11/15/1956,M,A+,Avenida Radialista Jo�o Ramos 1121,Maracana�,CE,61930-360,55075538665,956
+Amanda,Almeida,AmandaFerreiraAlmeida@jourrapide.com,9/12/1971,F,AB+,Avenida Carvalho 1560,Salvador,BA,40270-280,52988283532,986
+Matheus,Castro,MatheusRochaCastro@gustr.com,12/17/1975,M,A-,Rua Jos� Francisco de Paula 1123,Guaratinguet�,SP,12508-310,8188172081,98
+Melissa,Melo,MelissaCarvalhoMelo@armyspy.com,4/24/2004,F,O+,Rua Maria dos Santos 1614,Sete Lagoas,MG,35703-048,54926108640,45
+Nicole,Rodrigues,NicoleCunhaRodrigues@teleworm.us,12/31/1987,F,O+,Rua Santo Agostinho 1143,S�o Lu�s,MA,65026-120,18459384020,323
+Vin�cius,Carvalho,ViniciusAlmeidaCarvalho@einrot.com,9/25/1947,M,B+,Quadra QNM 16 M�dulo F 845,Ceil�ndia,DF,72210-166,88909656654,145
+Alex,Goncalves,AlexMeloGoncalves@gustr.com,12/23/1972,M,B-,2� Travessa Marqu�s de Santana 991,Salvador,BA,40325-515,90395155142,231
+Felipe,Sousa,FelipeLimaSousa@cuvox.de,7/29/1937,M,O+,Rua Andara� 1787,Campinas,SP,13104-053,98643382698,323
+Leonardo,Dias,LeonardoCunhaDias@dayrep.com,2/11/1977,M,O+,Rua Marinhas 1523,Vila Velha,ES,29130-005,56427562738,45
+Laura,Goncalves,LauraSantosGoncalves@teleworm.us,4/8/1961,F,A+,Avenida Maca�bas 450,Vit�ria da Conquista,BA,45025-170,55548073800,389
+F�bio,Rodrigues,FabioGoncalvesRodrigues@cuvox.de,10/13/1990,M,O+,Rua Visconde de Mau� 1497,Aparecida de Goi�nia,GO,74910-330,65109926980,112
+Luan,Silva,LuanCarvalhoSilva@jourrapide.com,5/30/1981,M,O+,Rua Boa Vista 458,V�rzea Grande,MT,78138-100,4454799229,986
+Ana,Barros,AnaMeloBarros@superrito.com,1/13/1936,F,A+,Rua das Margaridas 1067,Jacare�,SP,12309-580,19151262908,98
+Cau�,Carvalho,CauaCastroCarvalho@gustr.com,10/28/1954,M,O+,Rua Ocui 192,Foz do Igua�u,PR,85857-070,97181121200,986
+Emily,Gomes,EmilyRibeiroGomes@cuvox.de,5/31/1965,F,A+,Rua S�o Met�dio 1114,Sumar�,SP,13180-250,89822233710,45
+Giovanna,Ribeiro,GiovannaMartinsRibeiro@jourrapide.com,3/17/1950,F,A+,Rua Caturriba 26,Nova Igua�u,RJ,26051-240,6479841646,122
+Isabelle,Fernandes,IsabelleCastroFernandes@rhyta.com,7/8/1941,F,B+,Pra�a Nossa Senhora das Gra�as 1644,Campo Grande,MS,79116-055,23685666436,145
+Kau�,Barbosa,KauaPereiraBarbosa@armyspy.com,12/14/1942,M,A+,Rua Sa� 1710,Serra,ES,29171-629,49926962793,389
+Matheus,Correia,MatheusLimaCorreia@superrito.com,5/26/1969,M,O+,Rua 22 156,S�o Sebasti�o,DF,71693-125,120923122,91
+Kaua,Melo,KauaCarvalhoMelo@cuvox.de,2/7/1970,M,O+,Rua Valdemar Nogueira 487,Americana,SP,13476-792,26781227866,895
+Melissa,Pinto,MelissaAzevedoPinto@rhyta.com,11/5/1947,F,A+,Rua Felipe Del Paggio 581,Tabo�o da Serra,SP,06786-370,17927469894,98
+Bianca,Souza,BiancaCunhaSouza@cuvox.de,8/21/1990,F,O+,Rua Pedro Marinho 636,Marab�,PA,68501-710,92436333254,91
+Sarah,Lima,SarahCunhaLima@dayrep.com,8/16/1965,F,O+,Quadra Quadra 048 Conjunto C 837,Brazl�ndia,DF,72748-003,84648367910,91
+Enzo,Pereira,EnzoCastroPereira@jourrapide.com,4/28/1982,M,O+,Rua Sales�polis 834,Piracicaba,SP,13411-153,85856252012,956
+Samuel,Silva,SamuelCunhaSilva@jourrapide.com,11/27/1934,M,O+,Rua Let�cia Ghisi Zappellini 527,Crici�ma,SC,88810-159,57376615040,45
+Gabriela,Cardoso,GabrielaGomesCardoso@gustr.com,1/6/2002,F,O+,Rua Seis 1432,Rio Branco,AC,69904-420,31286042747,91
+Miguel,Lima,MiguelPintoLima@einrot.com,11/5/1994,M,A+,Rua Quinze 1293,Francisco Morato,SP,07991-150,98597127350,345
+Matilde,Barros,MatildeLimaBarros@einrot.com,9/13/1952,F,O+,Rua Cacule 1658,Guarulhos,SP,07241-330,75131019141,98
+Paulo,Goncalves,PauloGomesGoncalves@cuvox.de,3/13/1966,M,B+,Rua Benito 761,Guarulhos,SP,07143-550,94985114464,231
+Vin�cius,Castro,ViniciusAzevedoCastro@dayrep.com,9/22/1947,M,O+,Rua Coronel Augusto C�sar 1756,Leme,SP,13610-190,84325408541,345
+Daniel,Cavalcanti,DanielGomesCavalcanti@fleckens.hu,10/26/1966,M,A+,Rua Jornal de Hoje 932,Macei�,AL,57041-530,21241952477,231
+Davi,Santos,DaviAzevedoSantos@dayrep.com,4/23/1997,M,A+,Rua I 18 1234,An�polis,GO,75080-520,32177835810,895
+Murilo,Rocha,MuriloCarvalhoRocha@gustr.com,12/25/1971,M,O+,Travessa do Cemit�rio 1917,Salvador,BA,40720-520,37628414389,122
+Samuel,Souza,SamuelMartinsSouza@cuvox.de,9/23/1961,M,A+,Rua Professor Manoel Jo�o 766,Mossor�,RN,59605-330,27746162800,389
+Emily,Carvalho,EmilyRodriguesCarvalho@rhyta.com,9/27/1960,F,A+,Avenida Alceu Lyrio 1337,Uberaba,MG,38056-010,82645707556,956
+Danilo,Rocha,DaniloCarvalhoRocha@fleckens.hu,9/30/1978,M,O+,Rua Luiz Trinca 758,Votorantim,SP,18111-680,56921398986,122
+Kai,Alves,KaiCavalcantiAlves@teleworm.us,9/23/1994,M,B+,Rua Gon�alves Dias 507,Caucaia,CE,61645-350,42059491541,91
+Rafaela,Barros,RafaelaFerreiraBarros@gustr.com,7/16/1967,F,O+,Rua Ana C�sar 1486,S�o Paulo,SP,03260-010,89621282098,45
+Brenda,Pinto,BrendaFerreiraPinto@fleckens.hu,4/17/1950,F,O+,Rua Catanduvas 51,Salvador,BA,40342-065,74104466506,895
+Ot�vio,Ferreira,OtavioCorreiaFerreira@gustr.com,2/18/1980,M,B+,Rua Joaquim Santos 1739,Parna�ba,PI,64215-110,53025222336,231
+Eduarda,Silva,EduardaCardosoSilva@teleworm.us,11/21/2003,F,O+,Rua Tupi 1728,Campo Grande,MS,79092-490,50808718576,112
+Giovana,Silva,GiovanaPintoSilva@armyspy.com,5/16/1975,F,B+,Rua Lacerd�polis 1253,Curitiba,PR,81240-080,64854334819,345
+Brenda,Barros,BrendaGomesBarros@fleckens.hu,10/26/1960,F,O+,Travessa Girassol 190,Campo Mour�o,PR,87303-300,62724537440,145
+Mateus,Silva,MateusLimaSilva@rhyta.com,3/15/1996,M,O+,Rua Guilherme Schiochet 629,Jaragu� do Sul,SC,89265-790,8925661675,122
+Miguel,Lima,MiguelSouzaLima@jourrapide.com,1/4/1993,M,A+,Rua Esperan�a 1866,Serra,ES,29178-300,28133416140,145
+Alex,Carvalho,AlexCunhaCarvalho@superrito.com,7/20/1988,M,O+,Rua J�lio Guerra 85,Ji-Paran�,RO,78961-400,32715127367,145
+Miguel,Barros,MiguelCardosoBarros@einrot.com,6/13/1956,M,O+,Rua Rui Barbosa 609,Santa Cruz do Sul,RS,96810-310,36222055125,145
+Luana,Melo,LuanaSouzaMelo@dayrep.com,12/13/1998,F,A+,Avenida Pedro Domingues de Oliveira 1239,Ribeir�o Pires,SP,09436-170,70071044361,45
+Vit�r,Lima,VitorAraujoLima@einrot.com,1/21/1977,M,A+,Travessa Serafim Costa 224,Macei�,AL,57050-505,89474629188,91
+J�lia,Barbosa,JuliaPereiraBarbosa@armyspy.com,5/27/1982,F,B+,Servid�o Anacleto Jos� da Cruz 256,Petr�polis,RJ,25630-360,55610909503,389
+Leila,Rodrigues,LeilaBarrosRodrigues@cuvox.de,7/17/1966,F,A+,Travessa Xingu 1336,Goi�nia,GO,74767-012,43214041509,986
+J�lio,Cardoso,JulioFernandesCardoso@superrito.com,7/3/1955,M,B+,Rua Armando Tucci 284,Uberl�ndia,MG,38408-256,70412605422,145
+Raissa,Dias,RaissaBarbosaDias@superrito.com,9/11/1955,F,B+,Rua Irm�o Jos� 149,Caxias do Sul,RS,95052-000,31195795564,389
+Camila,Silva,CamilaAzevedoSilva@dayrep.com,7/29/1968,F,B+,Rua Santa Maria 1142,Jo�o Pessoa,PB,58083-372,78437338174,98
+Nicolas,Gomes,NicolasSilvaGomes@cuvox.de,5/25/1938,M,A+,Rua Londrina 751,Divin�polis,MG,35502-257,92429588161,345
+Daniel,Souza,DanielLimaSouza@rhyta.com,3/15/1970,M,B+,Rua Paraopeba 1107,Betim,MG,32666-449,18229903271,986
+Bruna,Dias,BrunaAzevedoDias@armyspy.com,1/28/1986,F,A+,Rua Gerv�sio de Oliveira Lima 1368,Arapiraca,AL,57312-630,15112399724,389
+Let�cia,Rocha,LeticiaPereiraRocha@fleckens.hu,3/19/1963,F,O+,1� Travessa C�rrego da Gameleira 82,Jaboat�o dos Guararapes,PE,54320-321,14763797344,145
+Davi,Rocha,DaviAzevedoRocha@fleckens.hu,5/9/1971,M,A+,Alameda dos Cafezais 596,Ribeir�o das Neves,MG,33830-190,29748948790,986
+Marisa,Ferreira,MarisaGoncalvesFerreira@dayrep.com,1/12/1987,F,A-,Rua L 1296,Cuiab�,MT,78095-120,25982797944,145
+Lavinia,Azevedo,LaviniaRochaAzevedo@jourrapide.com,3/21/1939,F,O+,Rua Aviador Rossine Luna 1000,Teresina,PIF,64062-200,57151268432,98
+Vitoria,Alves,VitoriaPintoAlves@rhyta.com,5/23/1987,F,B+,Quadra I 937,Caruaru,PE,55036-570,71403316694,323
+Vitoria,Lima,VitoriaCastroLima@cuvox.de,9/23/1993,F,A+,Rua dos Flamingos 462,Paranagu�,PR,83218-210,13616143071,231
+Gabriel,Martins,GabrielAlmeidaMartins@rhyta.com,1/19/1990,M,AB+,Alameda dos Ciprestes 975,Ribeir�o das Neves,MG,33830-120,73553189770,231
+Bruno,Barbosa,BrunoRochaBarbosa@einrot.com,12/6/1949,M,A-,Rua H�lio Jarreta 1090,Maring�,PR,87005-030,47725506900,45
+Lara,Santos,LaraAraujoSantos@armyspy.com,9/17/1948,F,A+,Rua Franklin Teixeira Sales 451,Santa Luzia,MG,33010-160,45047375072,45
+Danilo,Carvalho,DaniloSouzaCarvalho@fleckens.hu,3/7/1958,M,O+,Rua T�quio 1657,S�o Gon�alo,RJ,24723-200,64958253238,986
+Eduardo,Cavalcanti,EduardoAlvesCavalcanti@fleckens.hu,3/6/1935,M,O+,Rua Mogi Guacu 1460,Guarulhos,SP,07142-210,73109235889,112
+Kau�,Lima,KaueCavalcantiLima@teleworm.us,12/19/1968,M,B+,Rua �ngelo Bilessimo 1103,Crici�ma,SC,88805-246,54004775264,122
+Vit�r,Alves,VitorDiasAlves@cuvox.de,12/23/1935,M,A+,Rua Aragua�u 1615,Campinas,SP,13076-854,12035125898,986
+Gustavo,Rodrigues,GustavoFernandesRodrigues@einrot.com,5/7/1941,M,B+,Beco E 990,Belo Horizonte,MG,30692-491,55703400848,98
+Isabelle,Ribeiro,IsabelleCorreiaRibeiro@einrot.com,11/2/1938,F,B+,Rua do Asfalto 1770,Candeias,BA,43810-261,74917143233,91
+Fernanda,Barbosa,FernandaCarvalhoBarbosa@fleckens.hu,6/12/1939,F,O+,Rua Ana Andrade Santiago 553,Itajub�,MG,37502-052,90732586348,986
+Vinicius,Silva,ViniciusOliveiraSilva@fleckens.hu,10/16/1985,M,O+,Rua Carlos Veghini 250,Cachoeiro de Itapemirim,ES,29315-450,98229358974,112
+Luana,Lima,LuanaSouzaLima@superrito.com,5/28/1976,F,O-,Avenida Vaticano 1710,Serra,ES,29168-384,67296424249,323
+Paulo,Cardoso,PauloFernandesCardoso@cuvox.de,11/20/1988,M,O+,Rua Alexandre Herculano 69,Franco da Rocha,SP,07860-200,80264493982,112
+Carolina,Alves,CarolinaAraujoAlves@armyspy.com,3/4/1942,F,O+,Rua Bonif�cio Marquetti 1584,Blumenau,SC,89021-080,76825157671,45
+Samuel,Ribeiro,SamuelSousaRibeiro@fleckens.hu,12/4/1998,M,A+,Rua Itabira 1889,Coronel Fabriciano,MG,35170-180,22233908031,323
+Melissa,Souza,MelissaGomesSouza@teleworm.us,12/18/1935,F,A+,Rua Marapendi 881,Rio de Janeiro,RJ,21610-130,95061246390,956
+Ant�nio,Azevedo,AntonioSantosAzevedo@armyspy.com,11/21/1974,M,B+,Pra�a Oswaldo Marques 433,S�o Vicente,SP,11349-010,24099295087,345
+Guilherme,Cavalcanti,GuilhermeMartinsCavalcanti@jourrapide.com,6/13/1976,M,O+,Rua dos Masseiros 128,S�o Paulo,SP,08152-060,11376751798,122
+Thiago,Oliveira,ThiagoAraujoOliveira@teleworm.us,6/5/1992,M,O+,Rua Pedro Jos� do Nascimento 466,Ribeir�o Pires,SP,09435-290,36536684419,91
+Daniel,Castro,DanielRochaCastro@teleworm.us,1/23/1987,M,B+,Rua Sete 368,Piracicaba,SP,13402-232,9161981974,956
+Carolina,Martins,CarolinaCorreiaMartins@cuvox.de,1/25/1972,F,AB+,Viela Um L 583,Cruzeiro,SP,12704-220,75180091020,323
+Anna,Pinto,AnnaBarrosPinto@superrito.com,10/11/1981,F,O+,Rua Coliseu 75,Olinda,PE,53190-460,53525604734,145
+Enzo,Correia,EnzoMartinsCorreia@gustr.com,11/8/1936,M,A+,Rua Santo In�cio 1997,S�o Jo�o de Meriti,RJ,25515-261,84340509272,122
+Diego,Oliveira,DiegoMartinsOliveira@rhyta.com,1/17/1949,M,O+,Rua Cinco 442,Jundia�,SP,13203-135,43390932976,323
+Carlos,Castro,CarlosCunhaCastro@fleckens.hu,4/10/1952,M,O+,Rua 2 966,Caucaia,CE,61626-020,19094270986,98
+Luana,Fernandes,LuanaSilvaFernandes@armyspy.com,7/11/1963,F,O+,Rua Jo�o Benedito Am�ncio 920,Patos de Minas,MG,38703-462,97872381109,98
+Maria,Azevedo,MariaCorreiaAzevedo@fleckens.hu,5/25/1995,F,A+,Rua Itapeairu Mirim 341,Cuiab�,MT,78055-230,23314822332,345
+Laura,Carvalho,LauraSouzaCarvalho@dayrep.com,1/31/1933,F,A+,Rua Francisca Jesus 1695,Barra Mansa,RJ,27338-410,36634262705,956
+Larissa,Araujo,LarissaRochaAraujo@dayrep.com,7/14/1946,F,AB-,Rua Piren�polis 271,Novo Hamburgo,RS,93347-050,49743185607,112
+Matilde,Ribeiro,MatildeBarbosaRibeiro@cuvox.de,9/25/1997,F,O+,Avenida Paranapanema 886,An�polis,GO,75115-640,68549887803,986
+Anna,Sousa,AnnaPintoSousa@einrot.com,9/14/1933,F,A+,Rua Sergipe 1911,Londrina,PR,86020-330,26684164189,122
+Aline,Almeida,AlineAlvesAlmeida@jourrapide.com,10/14/1946,F,A+,Rua Arthur Cezar Pina 1312,Ponta Grossa,PR,84031-090,40290428300,231
+Martim,Pinto,MartimAraujoPinto@teleworm.us,3/1/1971,M,O+,Vila Souza 864,Bel�m,PA,66055-610,11936216230,122
+Vinicius,Alves,ViniciusPereiraAlves@gustr.com,11/10/1985,M,A+,Rua Magalh�es Bastos 1830,Recife,PE,50730-650,50086218239,389
+Melissa,Araujo,MelissaGomesAraujo@rhyta.com,7/5/1954,F,B-,Rua Jo�o Morais da Silva 1464,Tel�maco Borba,PR,84265-190,36958077768,895
+Arthur,Sousa,ArthurAlmeidaSousa@dayrep.com,4/24/1942,M,A+,Rua Pedra Azul 1911,Rio de Janeiro,RJ,23585-290,24620390232,986
+Bruna,Fernandes,BrunaFerreiraFernandes@teleworm.us,6/10/1996,F,O+,Rua Soldado Am�rico Pereira Rocha 386,Guarulhos,SP,07022-270,63163889000,345
+Carolina,Gomes,CarolinaPereiraGomes@gustr.com,4/29/1959,F,B+,Rua Vito Modesto Mastrorosa 25,Limeira,SP,13487-001,57067884217,895
+T�nia,Almeida,TaniaAlvesAlmeida@superrito.com,2/24/1971,F,O+,Rua Get�lio Vargas 627,Quatis,RJ,27410-200,62508350915,91
+Bianca,Castro,BiancaCorreiaCastro@dayrep.com,5/2/2002,F,A+,Rua Orestes Barbosa 504,Crici�ma,SC,88809-150,7157382750,323
+Tiago,Cardoso,TiagoLimaCardoso@fleckens.hu,9/27/1982,M,A+,Travessa Marco Zero 554,Macap�,AP,68902-580,64468388404,389
+Rebeca,Alves,RebecaFerreiraAlves@einrot.com,3/2/1990,F,B+,Quadra 309 Sul Avenida LO 5 1172,Palmas,TO,77015-526,70055229824,345
+Kauan,Souza,KauanBarbosaSouza@dayrep.com,8/24/1954,M,B+,Travessa Visconde de Araguaya 372,Recife,PE,52061-221,77983380984,345
+Julieta,Lima,JulietaGomesLima@einrot.com,4/24/1950,F,A+,Rua Maria Jos� de Morais 1654,S�o Gon�alo,RJ,24436-480,95835489528,895
+Luan,Cardoso,LuanSousaCardoso@rhyta.com,9/24/1942,M,A-,Rua Afonso M�rio de Azevedo 277,Nova Friburgo,RJ,28620-280,90562599460,986
+Bruna,Ribeiro,BrunaFerreiraRibeiro@teleworm.us,11/22/1940,F,A+,Rua Professor Em�lio Gonzales 11,Mar�lia,SP,17520-290,94400584399,986
+Arthur,Souza,ArthurCorreiaSouza@rhyta.com,8/24/1981,M,O+,Rua Ita� 1579,Natal,RN,59135-440,85110386200,986
+Jos�,Pereira,JoseDiasPereira@gustr.com,8/7/1935,M,O+,Rua Itapicuru 1323,Nova Igua�u,RJ,26020-560,70555143392,389
+Gabrielle,Martins,GabrielleDiasMartins@jourrapide.com,10/13/1947,F,O+,Avenida Toro 764,Diadema,SP,09981-340,22326233000,145
+Cau�,Cunha,CauaSousaCunha@fleckens.hu,12/2/1947,M,AB+,Pra�a Doutor Ant�nio Leiria 226,Porto Alegre,RS,90840-480,6440577000,389
+Leonor,Barros,LeonorSousaBarros@rhyta.com,1/27/1934,F,O+,Quadra 307 Sul Avenida NS 9 1204,Palmas,TO,77015-448,60756074045,112
+Carlos,Gomes,CarlosFerreiraGomes@fleckens.hu,10/7/1967,M,O+,Viela Quadra 131-B 1224,Goi�nia,GO,74520-113,74843685801,91
+Livia,Cardoso,LiviaSilvaCardoso@teleworm.us,5/4/1958,F,A-,Rua Rio Jaguaribe 1436,Contagem,MG,32265-030,39146315381,145
+Melissa,Araujo,MelissaCunhaAraujo@fleckens.hu,5/28/1990,F,O+,Rua Tres 453,Ca�apava,SP,12283-700,88518177316,895
+Rodrigo,Ribeiro,RodrigoGoncalvesRibeiro@dayrep.com,8/1/1993,M,B+,Avenida Maria da Gl�ria 1272,Queimados,RJ,26387-490,22682182798,345
+Clara,Cardoso,ClaraGoncalvesCardoso@superrito.com,2/5/1983,F,A-,Rua Claudino Reis 818,S�o Jo�o de Meriti,RJ,25540-360,61566973309,91
+Kai,Souza,KaiMartinsSouza@dayrep.com,6/4/1964,M,A+,Servid�o Carrancho 1438,Florian�polis,SC,88058-726,54540794728,112
+Enzo,Souza,EnzoCarvalhoSouza@gustr.com,8/8/2002,M,A+,Rua Jacauna 510,Rio de Janeiro,RJ,20740-270,27842407703,231
+Clara,Gomes,ClaraBarbosaGomes@armyspy.com,6/20/1970,F,A+,Rua Ant�nio Gomes Fran�a 926,Bauru,SP,17033-700,93199139515,956
+Lucas,Alves,LucasPereiraAlves@cuvox.de,6/27/1951,M,O+,Rua Brigadeiro Faria Lima 1568,Camaragibe,PE,54774-015,72054494054,345
+Marcos,Rodrigues,MarcosAzevedoRodrigues@dayrep.com,12/2/1994,M,B+,Rua Major Natanael 1889,S�o Paulo,SP,01246-100,17957372040,122
+Thiago,Azevedo,ThiagoDiasAzevedo@armyspy.com,3/25/1961,M,A-,Rua Oscar Espellet 1407,Cruz Alta,RS,98010-370,2734748711,45
+Jo�o,Dias,JoaoCunhaDias@fleckens.hu,1/9/1994,M,B+,Rua Tr�s 1213,Belo Horizonte,MG,31360-500,67402687800,956
+Melissa,Carvalho,MelissaLimaCarvalho@teleworm.us,3/16/1955,F,B+,Rua H 42,Maracana�,CE,61919-260,67623352504,389
+Marcos,Oliveira,MarcosAraujoOliveira@rhyta.com,7/30/1982,M,O+,Rua Curt Wacker 1384,Novo Hamburgo,RS,93332-200,6952876642,45
+Ryan,Oliveira,RyanFernandesOliveira@gustr.com,2/21/1998,M,O+,Rua Professor Josias de Souza Lima 373,Bauru,SP,17026-060,95997377920,345
+Vitoria,Fernandes,VitoriaOliveiraFernandes@rhyta.com,2/5/1995,F,A+,Avenida Tebas 366,Resende,RJ,27532-150,51197060880,895
+Eduardo,Pereira,EduardoCastroPereira@armyspy.com,8/23/1965,M,O+,Rua Amleto Farro 837,S�o Paulo,SP,04754-060,94307333209,145
+Rafaela,Fernandes,RafaelaSousaFernandes@rhyta.com,6/21/1947,F,A+,Rua Foz do Jord�o 38,Natal,RN,59114-770,68547021787,323
+Amanda,Rocha,AmandaAlvesRocha@cuvox.de,8/9/1981,F,B+,Rua H 1896,Cuiab�,MT,78055-722,53781769569,986
+Gabriela,Azevedo,GabrielaRochaAzevedo@dayrep.com,11/4/1960,F,O+,Pra�a Roberto Cirilo Ferreira 1024,Barra do Pira�,RJ,27115-240,24005258549,986
+Luis,Ribeiro,LuisAraujoRibeiro@einrot.com,2/1/1985,M,O+,Alameda B 1504,Bel�m,PA,66123-510,67686906205,895
+Miguel,Araujo,MiguelOliveiraAraujo@armyspy.com,4/9/1998,M,O+,Rua dos Imigrantes 1358,Piracicaba,SP,13405-168,71492725501,45
+Julieta,Castro,JulietaBarrosCastro@cuvox.de,5/10/1976,F,O+,Rua Franco Alfano 954,S�o Paulo,SP,05710-030,84289024963,986
+Isabelle,Castro,IsabellePintoCastro@fleckens.hu,10/31/1981,F,B+,Rua Benfica 1294,Cotia,SP,06722-090,89710885596,345
+Clara,Rodrigues,ClaraCorreiaRodrigues@einrot.com,11/25/1945,F,A+,Rua Adovaldo Jos� Gomes 283,Londrina,PR,86087-570,87999936278,231
+Alice,Sousa,AliceCunhaSousa@jourrapide.com,1/15/2002,F,O+,Rua Fajardo de Barros 552,S�o Paulo,SP,08160-070,37000965266,45
+Leonor,Ribeiro,LeonorCunhaRibeiro@einrot.com,10/22/1998,F,B+,Rua Padre Pedro Rota 123,S�o Paulo,SP,03237-060,31867546078,145
+Paulo,Pereira,PauloSilvaPereira@rhyta.com,7/3/1976,M,B+,Rua D 1891,Goi�nia,GO,74683-127,82016966467,323
+Luana,Gomes,LuanaRibeiroGomes@einrot.com,9/26/1947,F,AB+,Vila Dend� 859,Salvador,BA,41925-610,39081242806,112
+Bruna,Ribeiro,BrunaSousaRibeiro@dayrep.com,12/23/1956,F,O-,Rua Olavo Milton Mac Knight 481,Santa B�rbara D'Oeste,SP,13450-259,53029767493,323
+Pedro,Alves,PedroBarrosAlves@armyspy.com,6/24/1986,M,AB+,Travessa Humberto Mendes 1945,Macei�,AL,57022-300,17208099170,122
+Ot�vio,Cavalcanti,OtavioFerreiraCavalcanti@dayrep.com,4/7/1950,M,O+,Escada Santo Andr� 1799,Vit�ria,ES,29047-858,74345646014,345
+Diogo,Costa,DiogoSouzaCosta@fleckens.hu,11/20/1940,M,O+,Rua Projetada 1127,S�o Lu�s,MA,65042-500,55247796993,323
+Yasmin,Ribeiro,YasminCunhaRibeiro@armyspy.com,10/13/1968,F,AB+,Avenida Trinta e Um de Mar�o 983,Marab�,PA,68501-150,97257318590,323
+Maria,Cavalcanti,MariaRodriguesCavalcanti@gustr.com,2/19/1985,F,O+,Rua A�ude Po�o Branco 321,Natal,RN,59133-180,17257914044,389
+Giovanna,Cunha,GiovannaSouzaCunha@teleworm.us,3/1/1958,F,A+,Rua 3 1437,Manaus,AM,69099-123,96042620339,956
+Vitor,Goncalves,VitorFernandesGoncalves@gustr.com,9/30/1952,M,B+,Rua 10 516,Manaus,AM,69028-336,80556088573,145
+Emilly,Almeida,EmillyCostaAlmeida@cuvox.de,2/16/1979,F,O+,Rua 33 1077,An�polis,GO,75074-320,86447069182,323
+Vit�ria,Cavalcanti,VitoriaOliveiraCavalcanti@armyspy.com,9/18/1937,F,AB+,Rua Francinaldo Alves da Cruz 102,Jo�o Pessoa,PB,58090-204,45766067003,323
+Melissa,Fernandes,MelissaRodriguesFernandes@fleckens.hu,3/12/1941,F,O+,Rua Padre Pita 1810,Crato,CE,63100-300,17761922810,98
+Nicole,Lima,NicoleAlvesLima@einrot.com,3/1/1972,F,B+,Passagem Bel�m 167,Bel�m,PA,66117-200,5032526207,895
+Vinicius,Pinto,ViniciusCostaPinto@superrito.com,10/22/1972,M,B+,Rua Jo�o Casagrande 545,Curitiba,PR,81230-020,25385225606,895
+Miguel,Alves,MiguelSantosAlves@superrito.com,2/5/2000,M,B+,Rua Monjolos 1660,Guarulhos,SP,07243-140,71398167517,986
+Laura,Correia,LauraCavalcantiCorreia@rhyta.com,7/8/2003,F,O+,Avenida Professor Francisco Morato 1034,S�o Paulo,SP,05520-300,43419018002,895
+Carlos,Correia,CarlosSouzaCorreia@teleworm.us,9/5/1971,M,A+,Rua Lourivaldo Jos� da Costa 25,Curitiba,PR,82720-150,46618172225,122
+Emily,Santos,EmilyFernandesSantos@jourrapide.com,5/4/1989,F,O+,Rua Ant�nio Rodrigues Cajado 489,S�o Carlos,SP,13560-297,38140592714,145
+Julieta,Rocha,JulietaCorreiaRocha@einrot.com,4/17/2000,F,B+,Avenida Governador Magalh�es Pinto 993,Divin�polis,MG,35500-221,85127615045,122
+Amanda,Ribeiro,AmandaBarbosaRibeiro@gustr.com,9/8/1982,F,O+,Rua Manoel Corr�a 767,Tubar�o,SC,88708-751,15956647779,323
+Larissa,Cardoso,LarissaCostaCardoso@superrito.com,1/19/1990,F,O+,Quadra Quadra 111 Conjunto 04 27,Recanto das Emas,DF,72602-305,3125863457,45
+Brenda,Martins,BrendaOliveiraMartins@jourrapide.com,3/30/1986,F,A+,Rua Hava� 1128,Manaus,AM,69045-400,25898722327,231
+Julieta,Gomes,JulietaBarrosGomes@fleckens.hu,1/21/1994,F,B+,Rua Gigante Adamastor 1021,Campo Grande,MS,79064-350,3396551273,895
+Sarah,Rodrigues,SarahGomesRodrigues@superrito.com,6/7/1980,F,AB+,Avenida Joaquim Almeida Izaias 1471,Araraquara,SP,14811-164,60749352701,895
+Cau�,Almeida,CauaSouzaAlmeida@superrito.com,6/7/1980,M,O+,Rua General Calmon 1763,Vit�ria,ES,29010-470,2991592990,956
+Emily,Costa,EmilyLimaCosta@rhyta.com,6/8/1974,F,AB-,Rua Cangira 1467,Salvador,BA,40221-175,91398981052,345
+Erick,Rodrigues,ErickSouzaRodrigues@gustr.com,5/3/1938,M,A-,Rua Tirol 227,Novo Hamburgo,RS,93542-390,79732108908,956
+Murilo,Barbosa,MuriloFerreiraBarbosa@jourrapide.com,1/21/1953,M,O+,Acesso Auidauna 1879,Itapevi,SP,06663-045,75383060561,956
+Emily,Fernandes,EmilyMartinsFernandes@superrito.com,11/10/1935,F,O+,Rua Professor Louren�o Torres da Silva 465,Ribeir�o Preto,SP,14057-382,45917175500,895
+F�bio,Sousa,FabioSantosSousa@superrito.com,2/12/1943,M,O+,Rua Ministro Xavier de Toledo 1640,Santos,SP,11070-300,93185402219,122
+Kai,Alves,KaiSilvaAlves@armyspy.com,4/30/1986,M,O+,Rua Marmeleiro 350,Patos,PB,58705-660,29274693850,231
+Isabella,Correia,IsabellaBarbosaCorreia@einrot.com,11/14/1956,F,O+,Avenida Nove de Novembro 248,S�o Jos� dos Campos,SP,12225-580,38089784062,145
+Pedro,Sousa,PedroCardosoSousa@armyspy.com,8/14/1997,M,A+,Rua Wanessa Meireles Br�s 1261,Luzi�nia,GO,72811-040,50631040706,956
+Murilo,Ribeiro,MuriloLimaRibeiro@fleckens.hu,11/19/1943,M,O+,Avenida Uberabinha 518,Uberl�ndia,MG,38401-352,92956104748,956
+Kai,Melo,KaiAlmeidaMelo@einrot.com,6/17/1938,M,A+,Rua S�o Dimas 1923,Jo�o Pessoa,PB,58067-065,6987388105,112
+Beatriz,Dias,BeatrizRochaDias@armyspy.com,11/26/1939,F,O+,Pra�a Ant�nio de M. Filho 1250,Mogi-Gua�u,SP,13840-156,54228170013,45
+Daniel,Melo,DanielOliveiraMelo@einrot.com,12/6/2002,M,B+,Rua Olavo Dutra 1907,Porto Alegre,RS,91410-490,86387850541,389
+Carla,Ferreira,CarlaBarbosaFerreira@armyspy.com,10/12/1954,F,O+,Rua Lobo 301,S�o Paulo,SP,03424-030,82986822541,145
+Erick,Cunha,ErickAlmeidaCunha@fleckens.hu,5/25/1942,M,B-,Rua Aimor�s 1130,Len��is Paulista,SP,18682-770,41616555769,122
+Estevan,Goncalves,EstevanSilvaGoncalves@armyspy.com,5/28/1945,M,A+,Rua BF 36 563,Goi�nia,GO,74477-159,48969083413,231
+Mateus,Silva,MateusDiasSilva@dayrep.com,9/6/1942,M,A+,Rua Verdade 1491,Belford Roxo,RJ,26195-340,64570788009,323
+Lavinia,Cunha,LaviniaRochaCunha@rhyta.com,4/29/1980,F,O+,Rua Cora��o Selvagem 1361,S�o Paulo,SPF,08223-390,5364380050,112
+Luis,Santos,LuisAlvesSantos@einrot.com,10/19/1958,M,O+,Alameda dos Guatamb�s 1621,Itapevi,SP,06670-160,59602648465,345
+Leila,Azevedo,LeilaSouzaAzevedo@einrot.com,9/8/1970,F,AB+,1� Travessa Gra�a Lessa 1622,Salvador,BA,40290-530,64993892853,895
+Samuel,Alves,SamuelBarrosAlves@superrito.com,10/27/1963,M,AB+,Rua Agr�nomo Tenisson Freire 1510,Aracaju,SE,49030-030,66299707801,145
+Emily,Almeida,EmilyMeloAlmeida@einrot.com,3/15/1988,F,A+,Rua Pedro �lvares Cabral 213,Piracicaba,SP,13401-517,8131342697,145
+Nicole,Ribeiro,NicoleLimaRibeiro@dayrep.com,4/13/2004,F,O+,Rua Ivan Gomes 1554,Campina Grande,PB,58109-395,26944318601,895
+T�nia,Castro,TaniaGoncalvesCastro@gustr.com,2/8/1984,F,B+,Rua Magnol 612,Blumenau,SC,89052-373,26244819152,895
+Amanda,Araujo,AmandaSantosAraujo@rhyta.com,9/15/1990,F,O-,Pra�a Nossa Senhora da Abadia 374,Uberaba,MG,38025-430,7114882661,986
+Manuela,Barros,ManuelaAlmeidaBarros@fleckens.hu,3/29/1960,F,A+,Rua Mandirituba 916,Curitiba,PR,81925-540,32422645330,122
+Melissa,Almeida,MelissaFernandesAlmeida@superrito.com,10/28/1941,F,A+,Rua Jurandir Alves Ribeiro 1993,Itatiba,SP,13255-702,54619503886,112
+Davi,Araujo,DaviSilvaAraujo@armyspy.com,2/14/2002,M,O+,Rua Isaac Cat�o 532,Campina Grande,PB,58105-310,99230730505,122
+Estevan,Ribeiro,EstevanRodriguesRibeiro@rhyta.com,10/11/1944,M,O+,Rua Alagoas 753,Guarapuava,PR,85045-630,11281022349,91
+Lara,Pereira,LaraRibeiroPereira@cuvox.de,7/24/1988,F,A-,Rua Sepetiba 162,Salto,SP,13327-115,46461138218,231
+Tom�s,Castro,TomasCarvalhoCastro@armyspy.com,7/19/1984,M,A+,Rua S�o Martinho de Braga 471,Rio de Janeiro,RJ,23055-600,981848222,956
+Breno,Carvalho,BrenoGoncalvesCarvalho@einrot.com,12/20/1999,M,B+,Rua Raymundo Padilha 1588,Barra do Pira�,RJ,27150-550,93817705905,345
+Laura,Silva,LauraCarvalhoSilva@jourrapide.com,10/7/1962,F,A+,Estrada do Pinheirinho 173,S�o Paulo,SP,05215-000,45104729869,98
+Mariana,Melo,MarianaGomesMelo@fleckens.hu,5/14/1985,F,O+,Rua Conde Humberto 526,Cariacica,ES,29141-350,43377871357,112
+Emilly,Fernandes,EmillyAlmeidaFernandes@superrito.com,9/28/1941,F,B+,Rua Transamaz�nica 737,Igarassu,PE,53610-759,39403152575,323
+Rebeca,Correia,RebecaBarbosaCorreia@cuvox.de,7/10/1954,F,B+,Rua Carlos Alberto 5,Duque de Caxias,RJ,25235-200,33633456902,345
+Joao,Barbosa,JoaoCarvalhoBarbosa@gustr.com,3/21/1988,M,A+,Rua Ant�nio de Castilho 906,Campo Grande,MS,79074-310,70784074232,122
+Breno,Sousa,BrenoCorreiaSousa@dayrep.com,3/4/1934,M,O+,Rua Pio XII 296,Contagem,MG,32010-440,50381649199,231
+Kaua,Dias,KauaAzevedoDias@superrito.com,11/15/1991,M,O+,Rua S�o Jos� 1980,Len��is Paulista,SP,18682-100,34466309370,45
+Isabela,Pereira,IsabelaDiasPereira@fleckens.hu@g.com,4/2/1945,F,B+,Travessa Ant�nio Lins 562,Jo�o Pessoa,PB,58085-533,75210168409,986
+Gabrielle,Cavalcanti,GabrielleCarvalhoCavalcanti@dayrep.com,1/31/1997,F,O+,Rua Projetada e 1384,Paranava�,PR,87708-460,72826022040,956
+Douglas,Cavalcanti,DouglasFerreiraCavalcanti@dayrep.com,5/17/2001,M,O+,Rua Monsenhor Jos� Nock 1523,Arauc�ria,PR,83706-570,68252387012,98
+Leonor,Azevedo,LeonorRochaAzevedo@einrot.com,5/18/1973,F,A+,Rua Bas�lio Consolini 1146,Itatiba,SP,13255-230,74360115709,98
+Danilo,Pereira,DaniloFerreiraPereira@superrito.com,1/9/1985,M,O+,Rua �ngelo Dallazuana Sobrinho 1361,Colombo,PR,83407-839,72768131857,98
+Mateus,Barros,MateusMartinsBarros@dayrep.com,5/24/1974,M,A-,Rua Benedicta Rodrigues Domingos 386,Ribeir�o Preto,SP,14095-050,27653873200,956
+Gabrielly,Castro,GabriellyGomesCastro@superrito.com,6/22/1947,F,O+,Rua Pedro Vicente de Azevedo 1665,S�o Paulo,SP,05206-190,20766724190,956
+Clara,Souza,ClaraCarvalhoSouza@fleckens.hu,8/4/1940,F,O+,Rua Partenon 1014,Barueri,SP,06410-320,86564161204,323
+Julian,Fernandes,JulianSilvaFernandes@gustr.com,10/31/1985,M,A+,Rua H 482,Cariacica,ES,29143-009,92297745702,45
+J�lia,Dias,JuliaCastroDias@einrot.com,9/8/1964,F,O+,Rua J�lio Manoel dos Santos 964,Presidente Prudente,SP,19027-120,1165938731,45
+F�bio,Cavalcanti,FabioBarrosCavalcanti@jourrapide.com,10/17/1958,M,B+,Travessa Frei Caneca 1425,S�o Lu�s,MA,65040-611,16273459142,231
+Tom�s,Barros,TomasGomesBarros@superrito.com,1/7/1946,M,O+,Avenida Doutor Moacyr Siqueira 1658,Juiz de Fora,MG,36062-010,76627365200,956
+Evelyn,Gomes,EvelynDiasGomes@armyspy.com,1/27/1952,F,B+,Pra�a dos Aposentados 1597,Bauru,SP,17032-025,39293752492,45
+Emily,Cunha,EmilyCardosoCunha@dayrep.com,10/22/1943,F,B+,Rua S�o Jorge 810,Itagua�,RJ,23826-040,33987250747,986
+Jo�o,Barros,JoaoAzevedoBarros@cuvox.de,7/30/1991,M,O+,Rua Silveira 1179,Cascavel,PR,85819-140,7424623064,895
+Lara,Dias,LaraSilvaDias@fleckens.hu,12/18/1997,F,O+,Rua Doutor Ribeiro Silva 937,S�o Jo�o Del Rei,MG,36300-186,51945999519,895
+Murilo,Cavalcanti,MuriloRochaCavalcanti@gustr.com,5/20/1975,M,AB-,Ladeira das Pedras 1992,Salvador,BA,40830-620,91639823077,98
+Carolina,Castro,CarolinaSilvaCastro@dayrep.com,10/30/1971,F,B+,Rua Saudades 1928,Birig�i,SP,16200-006,10704545241,98
+Vit�ria,Costa,VitoriaCavalcantiCosta@teleworm.us,1/22/1965,F,O-,1� Avenida Br�ulio Pereira 1822,Salvador,BA,40365-745,81673038964,345
+Felipe,Correia,FelipeMeloCorreia@teleworm.us,7/12/1960,M,A+,Avenida Flamingo 1934,Aparecida de Goi�nia,GO,74970-580,3037961112,45
+Alex,Sousa,AlexSilvaSousa@armyspy.com,3/15/1951,M,O+,Rua Oito 747,S�o Lu�s,MA,65071-100,10132895447,91
+Daniel,Lima,DanielRibeiroLima@rhyta.com,5/30/1965,M,B+,Travessa dos Fazendeiros 850,Itabira,MG,35900-806,18105143984,345
+Alex,Melo,AlexSouzaMelo@teleworm.us,10/4/2001,M,O+,Rua Kansas 629,Itapecerica da Serra,SP,06852-680,50354176706,345
+Pedro,Cunha,PedroSilvaCunha@rhyta.com,12/7/1959,M,A+,Rua Francisca Melo da Silva 1371,Mossor�,RN,59614-580,83874514366,956
+Vin�cius,Gomes,ViniciusSouzaGomes@fleckens.hu,5/19/1938,M,O+,Quadra SQS 404 1185,Bras�lia,DF,70238-000,7384401321,112
+�gatha,Sousa,AgathaSantosSousa@armyspy.com,7/29/1974,F,O+,Alameda das Samambaias 265,Pirassununga,SP,13632-468,32220946088,389
+Livia,Costa,LiviaRodriguesCosta@dayrep.com,10/18/1953,F,AB+,Vila Ana Paula 439,Bel�m,PA,66812-390,62741681503,956
+Rebeca,Oliveira,RebecaRochaOliveira@einrot.com,2/3/1991,F,A-,Rua Ari Quaranta 796,Guarulhos,SP,07176-700,73453642325,112
+Renan,Rodrigues,RenanGomesRodrigues@einrot.com,8/9/1943,M,A-,Rua Santa Clara 1417,Mogi das Cruzes,SP,08742-080,70183324781,98
+Livia,Santos,LiviaRibeiroSantos@gustr.com,1/14/1966,F,A+,Rua do Rochedo 190,Atibaia,SP,12954-428,76105352654,45
+Ot�vio,Souza,OtavioAlmeidaSouza@cuvox.de,8/19/1942,M,O+,3� Travessa S�o Sebasti�o 279,Salvador,BA,40220-545,7108886510,323
+Yasmin,Azevedo,YasminAraujoAzevedo@teleworm.us,8/7/1998,F,A+,Avenida Igualdade 768,Macap�,AP,68907-080,12026080275,231
+Gabrielly,Gomes,GabriellyAlmeidaGomes@gustr.com,4/23/1989,F,O+,Rua Edmundo Xavier 1701,S�o Paulo,SP,03408-040,34855786900,231
+Enzo,Dias,EnzoSilvaDias@rhyta.com,7/7/1957,M,AB+,Rua Ad�o Jos� de Paula 1618,Rio de Janeiro,RJ,21745-610,32885118865,956
+Kauan,Barros,KauanRochaBarros@cuvox.de,7/4/1953,M,B+,Rua Desembargador Alfredo Russel 1774,S�o Paulo,SP,03558-070,19368321515,345
+Vit�r,Gomes,VitorAlmeidaGomes@teleworm.us,3/21/1979,M,A+,Rua Quatorze 1906,Campo Limpo Paulista,SP,13238-770,8148977542,231
+Giovana,Azevedo,GiovanaSilvaAzevedo@dayrep.com,5/20/1947,F,O+,Rua Turquia 1330,S�o Paulo,SP,01449-050,62286004196,91
+Eduardo,Sousa,EduardoBarrosSousa@superrito.com,7/25/1958,M,A+,Rua Duzentos e Cinq�enta e Cinco 1397,Bag�,RS,96410-120,44210805602,345
+Leonardo,Cavalcanti,LeonardoAlvesCavalcanti@einrot.com,7/21/1994,M,B+,Rua Hideto Kadota 1343,Paranagu�,PR,83212-527,80416914551,345
+Julia,Silva,JuliaCostaSilva@dayrep.com,9/11/1958,F,A+,Rua Stanislaw Ponte Preta 314,S�o Bernardo do Campo,SP,09843-830,69004261282,389
+Sofia,Martins,SofiaPintoMartins@einrot.com,4/28/1984,F,A+,Rua Bom Jesus da Cachoeira 80,S�o Paulo,SP,02236-020,83563595976,345
+Emilly,Gomes,EmillyCastroGomes@armyspy.com,6/25/1960,F,O-,Rua 18 910,Luzi�nia,GO,72816-180,37889594100,112
+Luana,Souza,LuanaAraujoSouza@teleworm.us,3/26/1944,F,A+,Rua Edson Luiz Beghini 1939,Bauru,SP,17056-046,72864843544,345
+Aline,Fernandes,AlineAzevedoFernandes@einrot.com,2/24/1965,F,O+,Rua 1 1692,Rio Verde,GO,75902-012,30215311728,45
+Rafaela,Barbosa,RafaelaCavalcantiBarbosa@einrot.com,4/3/1968,F,B-,Rua Piraju 1117,Barueri,SP,06416-160,97963499900,231
+Nicolas,Barbosa,NicolasSantosBarbosa@fleckens.hu,9/10/1977,M,A+,Rua Jos� C�mara Guimar�es 1438,Garanhuns,PE,55293-320,26086486492,98
+Let�cia,Alves,LeticiaGomesAlves@einrot.com,10/24/1944,F,A+,Quadra Quadra 17 Conjunto B 1513,Parano�,DF,71571-702,9011830679,231
+Estevan,Fernandes,EstevanSousaFernandes@teleworm.us,9/15/1941,M,A+,Escada Maria Ortiz 528,Vit�ria,ES,29015-130,59403734884,323
+Beatriz,Sousa,BeatrizBarrosSousa@dayrep.com,6/30/1945,F,AB+,Rua C 23 128,Goi�nia,GO,74265-130,13876670330,986
+Kau�,Melo,KaueOliveiraMelo@superrito.com,5/13/1985,M,O-,Rua Campinorte 979,Recife,PE,51250-270,85046527421,45
+Jos�,Alves,JoseFerreiraAlves@dayrep.com,7/10/1973,M,B+,Pra�a Jitsuji Fujiwara 832,Maring�,PR,87050-030,84926061775,98
+Erick,Silva,ErickGomesSilva@einrot.com,3/10/1968,M,O+,Rua dos Motoristas 1657,Campo Grande,MS,79060-150,49478321005,389
+Nicole,Correia,NicoleAzevedoCorreia@dayrep.com,4/29/1997,F,O+,Rua Dezesseis 409,Vila Velha,ES,29105-660,66090987000,91
+Livia,Cunha,LiviaCavalcantiCunha@fleckens.hu,12/17/1973,F,O-,Travessa Mensagem de Natal 1474,S�o Paulo,SP,03289-161,52282371356,231
+Gabrielly,Cardoso,GabriellyMeloCardoso@rhyta.com,2/11/2000,F,O+,Rua Franciszek Olencewicz 1226,S�o Jos� dos Pinhais,PR,83060-510,15500772287,389
+Gabrielly,Oliveira,GabriellyGoncalvesOliveira@teleworm.us,9/7/1969,F,B+,Avenida At�nas 1539,S�o Gon�alo,RJ,24752-090,98852199608,122
+Danilo,Oliveira,DaniloRodriguesOliveira@rhyta.com,7/12/1994,M,A+,Rua Compositor Luiz Gonzaga 433,Bayeux,PB,58309-688,42641513331,231
+Kau�,Cardoso,KaueMeloCardoso@fleckens.hu,7/2/1955,M,A+,Travessa Cinq�enta e Tr�s 1861,V�rzea Grande,MT,78149-408,94690608490,323
+Paulo,Ferreira,PauloAzevedoFerreira@fleckens.hu,5/1/1939,M,B+,2� Travessa Joaquim Ferreira 635,Salvador,BA,41502-110,70295862394,122
+Arthur,Santos,ArthurAraujoSantos@rhyta.com,6/10/1989,M,O+,Rua �gua-marinha 130,Foz do Igua�u,PR,85854-240,30470604875,45
+Isabelle,Sousa,IsabelleSilvaSousa@teleworm.us,7/9/1972,F,O+,Rua Salgado Filho 42,S�o Jo�o de Meriti,RJ,25555-190,87162510671,231
+Gabrielly,Azevedo,GabriellyLimaAzevedo@gustr.com,8/17/1986,F,A+,Rua S�o Crist�v�o 618,Patos de Minas,MG,38700-432,2067647318,323
+T�nia,Azevedo,TaniaAraujoAzevedo@armyspy.com,10/1/1996,F,B+,Avenida Vinte e quatro 413,S�o Jos� dos Campos,SP,12246-031,58148563780,231
+Davi,Ferreira,DaviAlvesFerreira@armyspy.com,9/4/1934,M,B+,Rua Helv�dio Pedroso de Oliveira 1949,Sorocaba,SP,18044-175,57242971160,112
+Brenda,Correia,BrendaCastroCorreia@gustr.com,8/6/1964,F,O+,Rua Imbu 1596,Chapec�,SC,89809-070,48009506516,895
+Enzo,Almeida,EnzoGoncalvesAlmeida@einrot.com,3/26/1967,M,A+,Rua das Violetas 1057,Goi�nia,GO,74390-455,70489292194,323
+Eduarda,Castro,EduardaSouzaCastro@teleworm.us,9/25/1982,F,A-,Rua Rio Negro 1300,Ribeir�o Preto,SP,14060-170,99104120710,345
+Nicolash,Cunha,NicolashRibeiroCunha@cuvox.de,3/17/1967,M,O+,Rua Brasil 1439,Ponta Grossa,PR,84036-010,74541114240,956
+Kauan,Cavalcanti,KauanRibeiroCavalcanti@superrito.com,12/3/1940,M,AB+,Rua T 1372,Gurupi,TO,77433-480,38320159652,956
+Leonardo,Pereira,LeonardoLimaPereira@superrito.com,1/1/1990,M,B+,Rua Ernesto de Matos Carvalho 1179,Dourados,MS,79814-110,72921973960,231
+Vit�ria,Goncalves,VitoriaCavalcantiGoncalves@rhyta.com,4/30/1968,F,A-,Rua Maraial 638,Olinda,PE,53140-000,83983492800,112
+Marcos,Goncalves,MarcosAlvesGoncalves@fleckens.hu,4/15/2003,M,B+,Rua Desportista Adalberto Ferreira dos Santos 73,Jo�o Pessoa,PB,58079-010,16357728934,956
+Carla,Oliveira,CarlaCarvalhoOliveira@cuvox.de,11/7/1950,F,A+,Rua Ant�nio Azevedo Farias 1070,Campina Grande,PB,58103-660,46686446092,145
+Leila,Santos,LeilaPereiraSantos@dayrep.com,1/11/1943,F,A+,Rua Silvares 27,Birig�i,SP,16201-013,83990797239,112
+Danilo,Araujo,DaniloCunhaAraujo@jourrapide.com,10/20/1990,M,B+,Rua Quatro 196,Paranagu�,PR,83215-140,85021571320,389
+Leonardo,Goncalves,LeonardoAlmeidaGoncalves@teleworm.us,5/13/1970,M,A+,Rua Duartina 1777,Belo Horizonte,MG,31070-090,76782493497,389
+Leonardo,Pereira,LeonardoAlvesPereira@superrito.com,12/31/1964,M,B-,Quadra Quadra 159 540,Novo Gama,GO,72865-159,72468737679,112
+Lu�s,Cardoso,LuisSousaCardoso@gustr.com,6/27/1989,M,O+,Rua S�o Bernardo 507,Luzi�nia,GO,72850-505,43398068111,145
+Felipe,Pereira,FelipeCavalcantiPereira@dayrep.com,4/5/1983,M,O+,Conjunto Jardim Floresta Park 1954,Ananindeua,PA,67030-591,90849998603,122
+Rafael,Azevedo,RafaelSouzaAzevedo@armyspy.com,4/16/1981,M,A-,Rua Dezessete 906,V�rzea Grande,MT,78148-560,81808345142,389
+Paulo,Araujo,PauloFernandesAraujo@fleckens.hu,8/1/1964,M,O+,Rua Raimundo Dias de Avelar 1397,Sete Lagoas,MG,35700-136,97664863449,122
+Marcos,Fernandes,MarcosFerreiraFernandes@fleckens.hu,2/23/1965,M,A+,Rua Marize Bastier 829,Natal,RN,59056-070,55891069318,98
+Tom�s,Oliveira,TomasFerreiraOliveira@gustr.com,3/18/1941,M,A+,Rua Para�ba 1344,Teixeira de Freitas,BA,45998-219,23485189618,345
+Carlos,Martins,CarlosCarvalhoMartins@jourrapide.com,4/27/1971,M,B-,Rua Itamb� 1288,S�o Jos� dos Campos,SP,12230-660,2786349826,45
+Julieta,Cunha,JulietaGomesCunha@cuvox.de,12/7/1966,F,O+,Alameda Ot�vio Cat�o 1057,Dourados,MS,79843-050,25667064766,45
+Amanda,Almeida,AmandaCavalcantiAlmeida@einrot.com,4/25/1961,F,O+,1� Travessa da BR 877,Caxias,MA,65607-190,12919227092,98
+Breno,Dias,BrenoFernandesDias@jourrapide.com,10/21/1980,M,B+,Rua Nivaldo Correa 1193,Belo Horizonte,MG,31270-450,27034866775,956
+Nicolas,Silva,NicolasCunhaSilva@gustr.com,12/15/1999,M,AB+,Rua das Mangueiras 1672,Salvador,BA,41218-097,39853848511,98
+Isabella,Lima,IsabellaAraujoLima@armyspy.com,4/17/1937,F,A+,Travessa Setembro de 1983 1911,S�o Paulo,SP,05887-510,87685220105,45
+Mateus,Cardoso,MateusDiasCardoso@jourrapide.com,6/28/1942,M,A+,Rua A 1535,Ribeir�o Preto,SP,14078-494,48847770777,98
+Lara,Carvalho,LaraAlmeidaCarvalho@armyspy.com,6/30/1941,F,O+,Rua Jacob Justen 1545,Petr�polis,RJ,25665-063,55053935351,345
+Carla,Ferreira,CarlaCardosoFerreira@fleckens.hu,7/11/1948,F,O+,Rua Venturosa 1451,S�o Paulo,SP,08295-350,18797776491,122
+Camila,Ribeiro,CamilaSantosRibeiro@dayrep.com,4/18/1962,F,O-,Rua Mestre Jo�o Tim�teo 1992,Sete Lagoas,MG,35700-380,71804492370,323
+Melissa,Ribeiro,MelissaGomesRibeiro@superrito.com,1/31/1993,F,B+,Rua Cl�udio Joaquim de Santana 353,Camaragibe,PE,54768-585,29728808119,389
+Vit�ria,Lima,VitoriaCarvalhoLima@gustr.com,1/7/1938,F,O+,Avenida Huber Warco 865,Mogi das Cruzes,SP,08820-190,62272387756,895
+Diego,Fernandes,DiegoPereiraFernandes@armyspy.com,11/7/1977,M,A-,Quadra Parque Piau� 402,Teresina,PI,64025-270,14046738650,323
+Sofia,Alves,SofiaPintoAlves@fleckens.hu,5/27/1937,F,A+,Avenida 60 905,Rio Claro,SP,13504-647,93326338864,122
+Douglas,Pereira,DouglasMeloPereira@rhyta.com,1/23/1973,M,B+,Rua S�o Domingos 1162,Caruaru,PE,55016-740,20259761869,112
+Lara,Costa,LaraSilvaCosta@cuvox.de,9/5/1999,F,O+,Rua Frei Martinho 1081,Campina Grande,PB,58102-433,55056052655,145
+Davi,Ferreira,DaviRochaFerreira@dayrep.com,12/20/1936,M,B+,Rua Araguaia 1262,S�o Jo�o Del Rei,MG,36305-068,66253484737,231
+Samuel,Rocha,SamuelAlvesRocha@jourrapide.com,12/10/1961,M,O+,Rua Cantagalo 168,Itagua�,RJ,23835-790,7516174408,895
+Clara,Ferreira,ClaraAlmeidaFerreira@cuvox.de,5/16/2003,F,B+,Avenida Capit�o Francisco In�cio 745,Po�,SP,08551-150,68001494039,145
+Bruno,Barbosa,BrunoCostaBarbosa@dayrep.com,11/15/1954,M,B+,Rua Desembargador Ant�nio Cerejo 1644,Natal,RN,59056-360,77062897612,98
+Bruno,Lima,BrunoSousaLima@fleckens.hu,3/21/1988,M,O+,Rua 301 102,Gurupi,TO,77430-490,24821727560,986
