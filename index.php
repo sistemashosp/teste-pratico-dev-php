@@ -97,10 +97,10 @@
                                             <th scope="row"># {{ index +1 }}</th>
                                             <td>{{ dado.nome }}</td>
                                             <td>{{ dado.sobrenome }}</td>
-                                            <td>{{ dado.cpf }}</td>
                                             <td>{{ dado.email }}</td>
                                             <td>{{ dado.data_nascimento }}</td>
                                             <td>{{ dado.genero }}</td>
+                                            <td>{{ dado.descricao }}</td>
                                             <td>{{ dado.endereco }}</td>
                                             <td>{{ dado.cidade }}</td>
                                             <td>{{ dado.estado }}</td>
