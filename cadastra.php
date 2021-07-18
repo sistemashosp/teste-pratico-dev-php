@@ -1,5 +1,44 @@
 <?php
+ini_set('max_execution_time', 0);
+require "src/controllers/PacienteController.php";
 
-// your code here
-
+$pc = new PacienteController();
+if (!empty($_FILES['csv'])) {
+    if (isset($_FILES['csv']) && $_FILES['csv']['error'] == 0) {
+        $name = $_FILES['csv']['name'];
+        $ext = explode('.', $_FILES['csv']['name']);
+        $ext = strtolower(end($ext));
+        $type = $_FILES['csv']['type'];
+        $tmpName = $_FILES['csv']['tmp_name'];
+        if ($ext === 'csv') {
+            $pc->importFromCsv($tmpName);
+            header('Location: ./lista.php');
+        } else {
+            echo 'Formato inválido!';
+        }
+    } else {
+        $pc->importFromCsv();
+    }
+}
 ?>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <title>Cadastrar Pacientes</title>
+</head>
+
+<body>
+    <?php include_once('./src/views/header.php') ?>
+    <div class="container">
+        <?php include_once('./src/views/cadastrar-csv.php') ?>
+    </div>
+
+</body>
+
+</html>
