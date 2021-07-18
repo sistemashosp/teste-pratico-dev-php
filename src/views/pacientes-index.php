@@ -78,6 +78,3 @@ $page = $pacientes['page'];
         </div>
     </div>
 </div>
-</body>
-
-</html>
