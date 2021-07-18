@@ -18,6 +18,7 @@ if (!empty($_FILES['csv'])) {
         }
     } else {
         $pc->importFromCsv();
+        header('Location: ./lista.php');
     }
 }
 ?>
