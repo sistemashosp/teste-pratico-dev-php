@@ -1,0 +1,82 @@
+#arquivoCSV{
+    text-align: center;
+     margin-top: 100px;
+}
+
+.container{
+    box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.3); 
+    border-radius: 5px;
+     display: grid;
+     width: 250px;
+     margin: 0 auto;
+}
+
+.btn-enviar{
+    cursor: pointer;
+    border: 1px solid black;
+    border-radius: 3px;
+    width: min-content;
+    margin: 5px auto;
+    white-space: nowrap;
+}
+
+.errcontainer{
+    text-align: center;
+    color: firebrick;
+}
+
+.sucesso{
+    z-index: 2;
+    display: none;
+    background: white;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    margin: 5px;
+    margin-left: 40%;
+    margin-right: auto;
+    width: 200px;
+    position: absolute;
+    box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.3); 
+}
+
+.blur{
+	display: none;
+	opacity: 0.3;
+	background: black;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+
+.loader {
+	box-shadow: 3px 3px 3px rgb(0, 0, 0);
+	height: 64px;
+	width: 64px;
+	position: fixed;
+	top: calc(50% - 32px);
+	left: calc(50% - 32px);
+	border-radius: 50%;
+	-webkit-animation: loader 1.5s linear infinite;
+	-moz-animation: loader 1.5s linear infinite;
+	-ms-animation: loader 1.5s linear infinite;
+	-o-animation: loader 1.5s linear infinite;
+	animation: loader 1.5s linear infinite;
+}
+
+@-webkit-keyframes loader {
+    to {
+        -o-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+@keyframes loader {
+    to {
+        -o-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
