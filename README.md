@@ -1,70 +1,22 @@
-# Teste prático para Desenvolvedores PHP
+## Teste iClinic 2021
 
-Este é o teste prático para candidatos à vaga de desenvolvimento PHP do Shosp.
+Fiz em Laravel 8, com Banco de Dados em MySQL.
 
-**Requisitos:**
-- Domínio da Linguagem PHP
-- Javascript (jquery e ajax)
-- Interpretação de texto
-- Banco de dados Postgres
+Não mandei o dump do banco pois no próprio teste já está o dump do banco.
 
-**Desejável:**
-- Programação orientada a objetos
-- MVC
-- Javascript e Ajax
+Para rodar:
 
-## Objetivo
+1) configurar o banco de dados no arquivo .env do projeto
+2) no cmd iniciar o laravel: php artisan serve
 
-A partir da descrição do teste, codificar em PHP os requisitos enumerados levando em conta a segurança da aplicação, performance, boa organização de código e documentação.
+Pronto!
 
-## Descrição do teste
+Segue vídeo explicando a estrutura (como utilizo uma versão free do CloudApp, é 1 minuto por vídeo).
 
-Criar tabelas no banco de dados baseado nas colunas do arquivo csv. São duas tabelas com relacionamento 1:n "TIPO SANGUINEO" e "PACIENTE"
+1) https://share.getcloudapp.com/kpun1zok
+2) https://share.getcloudapp.com/geuAxD0J
+3) https://share.getcloudapp.com/2NulJQrJ
+4) https://share.getcloudapp.com/X6ulkGzG
+5) https://share.getcloudapp.com/geuAxDw7
 
-Escrever um código no arquivo cadastrar.php onde fará a leitura do arquivo pacientes.csv e cadastrará no banco de dados, de acordo com o Modelo de Entidade e Relacionamento. Esse código deverá sempre que for executado, APAGAR todos os dados e cadastrar novamente.
-
-Escrever o código no arquivo listar.php que fará a leitura dos dados no banco de dados e mostrará na tela em forma de tabela, com mesmo layout do arquivo CSV.
-
-A tabela deve ter as seguintes colunas: 
-- **PACIENTE:** Nome, Sobrenome, CPF, Email, Data Nascimento, Genero, Id do Tipo Sangúineo, Endereco, Cidade, Estado e CEP
-- **TIPO SANGUÍNEO:** ID e Descrição
-
-Veja o modelo: https://bit.ly/38RiyM1
-
-Para cada registro, caso o CPF, Email e Data de Nascimento não sejam válidos, não deve preencher a coluna.
-
-Todos os arquivos estão neste branch
-
-## Banco de dados
-
-Você pode usar um banco de dados local. Você pode utilizar Postgres ou Mysql, de acordo com sua preferência
-
-Seguem os script de criação das tabelas para [Mysql](https://drive.google.com/file/d/1q0d4L7xTytDAft50L-SL9orcRq6r7bA1/view?usp=sharing) e [Postgres](https://drive.google.com/file/d/1M5xA1pX5Qyys-yR5CDcDlMpYKJHDW3Ht/view?usp=sharing)
-
-## Avaliação
-
-Demonstrar habilidade em escrever programas com linguagem PHP utilizando conexão com banco de dados Postgresql.
-
-- Validação de dados
-- Otimização de código
-- Tratamento de erros
-- Controle de segurança de dados
-- Garantia de integridade de dados
-- Manutenção de dados em Banco de Dados
-
-## Prazo
-
-O tempo disponibilizado para o teste é de:
-- **24 horas**
-
-## Entrega:
-
-Para começar, faça um fork deste repositório, crie uma branch com o seu nome completo e depois envie-nos o pull request. Se você apenas clonar o repositório não vai conseguir fazer push e depois vai ser mais complicado fazer o pull request.
-
-Caso ainda não tenha se cadastrado, acesse https://app.pipefy.com/public/form/cE1e8WsR para se cadastrar para a vaga.
-
-## Dica do GIT
-
-Neste vídeo ensina como você pode fazer o Fork do nosso repositório e entregar com o push request. https://youtu.be/gJCwWlB3XX0
-
-# Sucesso!!!!
+Código fonte github: https://github.com/rafamcd/test-iClinic-2021
