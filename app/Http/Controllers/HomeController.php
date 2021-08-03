@@ -125,7 +125,7 @@ class HomeController extends Controller
     public function lista() {
 
         //Listagem de pacientes
-        $pacientes = Paciente::join('tipo_sanguineo','paciente.id_tipo_sanguineo','=', 'tipo_sanguineo.id')->orderBy('nome', 'asc')->paginate(20);
+        $pacientes = Paciente::select('paciente.*','tipo_sanguineo.descricao')->join('tipo_sanguineo','paciente.id_tipo_sanguineo','=', 'tipo_sanguineo.id')->orderBy('nome', 'asc')->paginate(20);
         
         return view('lista', [
             'pacientes' => $pacientes
