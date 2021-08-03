@@ -19,4 +19,6 @@ Segue vídeo explicando a estrutura (como utilizo uma versão free do CloudApp, 
 4) https://share.getcloudapp.com/X6ulkGzG
 5) https://share.getcloudapp.com/geuAxDw7
 
-Código fonte github: https://github.com/rafamcd/test-iClinic-2021
+Pequeno ajuste (correção) explicada no vídeo: https://share.getcloudapp.com/X6ulW4ZX
+
+
