@@ -19,3 +19,5 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', 'CadastraController@index');
 Route::post('/', 'CadastraController@store')->name("importar");
+Route::get('/', 'CadastraController@lista')->name("lista");
+

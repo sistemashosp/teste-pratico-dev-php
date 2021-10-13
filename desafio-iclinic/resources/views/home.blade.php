@@ -20,6 +20,19 @@
                     </div>
                 </div>
          @endif
+         @if (isset($failures))
+   <div class="alert alert-danger" role="alert">
+      <strong>Errors:</strong>
+      
+      <ul>
+         @foreach ($failures as $failure)
+            @foreach ($failure->errors() as $error)
+                <li>{{ $error }}</li>
+            @endforeach
+         @endforeach
+      </ul>
+   </div>
+@endif
          
          @if (session()->has('success'))
             <h1>{{ session('success') }}</h1>
@@ -38,5 +51,45 @@
         </div>
 
          </form>
+
+         
+  @if (isset($pacientes))
+         <table class="table">
+  <thead class="thead-dark">
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Nome</th>
+      <th scope="col">Sobrenome</th>
+      <th scope="col">CPF</th>
+      <th scope="col">Email</th>
+      <th scope="col">Data de Nascimento</th>
+      <th scope="col">Genêro</th>
+      <th scope="col">Tipo Sanguíneo</th>
+      <th scope="col">Endereço</th>
+      <th scope="col">Cidade</th>
+      <th scope="col">Estado</th>
+      <th scope="col">Cep</th>
+    </tr>
+  </thead>
+  <tbody>
+  @foreach($pacientes as $paciente) 
+    <tr>
+      <th scope="row">{{$paciente->id}}</th>
+      <td>{{$paciente->nome}}</td>
+      <td>{{$paciente->sobrenome}}</td>
+      <td>{{$paciente->cpf}}</td>
+      <td>{{$paciente->email}}</td>
+      <td>{{$paciente->dataNascimento}}</td>
+      <td>{{$paciente->genero}}</td>
+      <td>{{$paciente->idTipoSanquineo}}</td>
+      <td>{{$paciente->endereco}}</td>
+      <td>{{$paciente->cidade}}</td>
+      <td>{{$paciente->estado}}</td>
+      <td>{{$paciente->cep}}</td>
+    </tr>
+    @endforeach
+  </tbody>
+</table>
+@endif
     </body>
 </html>

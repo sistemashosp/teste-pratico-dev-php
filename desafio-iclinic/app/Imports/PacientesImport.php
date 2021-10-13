@@ -8,8 +8,8 @@ use Illuminate\Validation\Rule;
 use Maatwebsite\Excel\Concerns\ToModel;
 use Maatwebsite\Excel\Concerns\Importable;
 use Maatwebsite\Excel\Concerns\WithValidation;
-//use Maatwebsite\Excel\Concerns\SkipsOnError;
-//use Maatwebsite\Excel\Concerns\SkipsErrors;
+use Maatwebsite\Excel\Concerns\SkipsOnError;
+use Maatwebsite\Excel\Concerns\SkipsErrors;
 use Maatwebsite\Excel\Concerns\SkipsOnFailure;
 use Maatwebsite\Excel\Concerns\SkipsFailures;
 use Maatwebsite\Excel\Concerns\WithHeadingRow;
@@ -17,11 +17,23 @@ use Illuminate\Support\Facades\Validator;
 use Maatwebsite\Excel\Concerns\WithBatchInserts;
 use Maatwebsite\Excel\Concerns\WithChunkReading;
 use Illuminate\Contracts\Queue\ShouldQueue;
+use Maatwebsite\Excel\Events\AfterImport;
+use Maatwebsite\Excel\Events\BeforeImport;
+use Maatwebsite\Excel\Concerns\RegistersEventListeners;
+use Maatwebsite\Excel\Concerns\WithEvents;
 use App\Rules\ValidateCpfRule;
 
-class PacientesImport implements ToModel, WithHeadingRow, WithValidation, SkipsOnFailure, WithBatchInserts,  WithChunkReading, ShouldQueue/* , SkipsOnError, WithValidation, SkipsOnFailure, WithBatchInserts,  WithChunkReading, ShouldQueue */
+class PacientesImport implements ToModel, 
+        WithHeadingRow , 
+        SkipsOnError, 
+        WithValidation, 
+        SkipsOnFailure, 
+        WithBatchInserts,  
+        WithChunkReading, 
+        ShouldQueue,
+        WithEvents 
 {
-    use Importable, SkipsFailures; 
+    use Importable, SkipsErrors, RegistersEventListeners, SkipsFailures;
     private $tipo; 
 
     public function __construct(){
@@ -29,28 +41,6 @@ class PacientesImport implements ToModel, WithHeadingRow, WithValidation, SkipsO
         $this->tipo = TipoSanguineo::select('id', 'descricao')->get(); 
     }
     
-
-    /*  public function rules(): array
-    {
-        return [
-            '*.nome' => ['required', 'regex:/(^[A-Za-z0-9 ]+$)+/'],
-            '*.sobrenome' => ['required', 'regex:/(^[A-Za-z0-9 ]+$)+/'],
-            '*.email' => ['email','unique:pacientes,email'],
-            '*.cpf'   => ['required','numeric',new ValidateCpfRule],
-            //'*.datanascimento' => ['required', 'date_format:Y-m-d'],
-            '*.endereco' => ['required','regex:/(^[A-Za-z0-9 ]+$)+/'],
-            '*.cidade' => ['required', 'regex:/(^[A-Za-z0-9 ]+$)+/'],
-
-             
-        ];
-    }
-
-    public function customValidationMessages()
-    {
-        return [
-            'email.unique' => 'Correo ya esta en uso.',
-        ];
-    }    */
     /**
     * @param array $row
     *
@@ -81,14 +71,14 @@ class PacientesImport implements ToModel, WithHeadingRow, WithValidation, SkipsO
 
 
 
-     public function rules(): array
+      public function rules(): array
     {
         return [
            // '*.nome' => ['required', 'regex:/(^[A-Za-z0-9 ]+$)+/'],
             //'*.sobrenome' => ['required', 'regex:/(^[A-Za-z0-9 ]+$)+/'],
             '*.email' => ['email','unique:pacientes,email'],
             '*.cpf'   => ['required','numeric', new ValidateCpfRule],
-            '*.datanascimento' => ['required', 'date_format:Y-m-d'],
+            '*.datanascimento' => ['required', 'date_format:Y-m-d']
            // '*.endereco' => ['required','regex:/(^[A-Za-z0-9 ]+$)+/'],
            // '*.cidade' => ['required', 'regex:/(^[A-Za-z0-9 ]+$)+/'],
 
@@ -97,15 +87,36 @@ class PacientesImport implements ToModel, WithHeadingRow, WithValidation, SkipsO
     }
 
 
-     public function batchSize(): int
+    public function batchSize() : int
     {
         return 1000;
     }
 
-    public function chunkSize(): int
+    public function chunkSize() : int
     {
-        return 1000;
-    }  
+        return 5000;
+    }
+
+    /**
+     * @return array
+     */
+    public function getCsvSettings(): array
+    {
+        return [
+            'delimiter' => ';',
+            'enclosure' => '',
+            'input_encoding' => 'UTF-8'
+        ];
+    }
+
+    public static function afterImport(AfterImport $event)
+    {
+       //dd($event);
+    }
+    
+    
+
+    
 
     
 

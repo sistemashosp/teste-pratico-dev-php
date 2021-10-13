@@ -20,17 +20,32 @@ class CadastraController extends Controller
 
         Paciente::truncate();
 
-        $file = $request->file('import_file');
-        //Excel::import(new PacientesImport(), $request->file('import_file'));
+        try {
+        Excel::import(new PacientesImport(), $request->file('import_file'));
+        }
+        catch (\Maatwebsite\Excel\Validators\ValidationException $e) {
+        $failures = $e->failures();
+        return view('home', compact('failures'));
+        }
+        /* $file = $request->file('import_file')->store('import');
         $import = new PacientesImport();
-        $import->import($file); 
-        if($import->failures()->isNotEmpty()){
-            return 'sucesso ao importar, duplicidades e erros de validações skipados ';
-        }  
+        $import->import($file);
+        
+         if($import->failures()->isNotEmpty()){
+            
+            return redirect()->back()->with('success', 'csv cadastrado com sucesso !');
+            
+        }  */  
         
         
 
         return redirect()->back()->with('success', 'csv cadastrado com sucesso !');
+    }
+
+
+    public function lista(){
+        $pacientes = Paciente::all();
+        return view("home", compact('pacientes'));
     }
 
 }
