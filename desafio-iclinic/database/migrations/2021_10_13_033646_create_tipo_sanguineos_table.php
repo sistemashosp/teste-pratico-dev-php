@@ -17,6 +17,43 @@ class CreateTipoSanguineosTable extends Migration
             $table->id();
             $table->string('descricao');
         });
+
+        DB::table('tipo_sanguineos')->insert(
+            array(
+                [
+                'id' => '1',
+                'descricao' => 'O-'
+                ],
+                [
+                    'id' => '2',
+                    'descricao' => 'O+'
+                    ],
+                    [
+                        'id' => '3',
+                        'descricao' => 'AB-'
+                        ],
+                        [
+                            'id' => '4',
+                            'descricao' => 'AB+'
+                            ],
+                            [
+                                'id' => '5',
+                                'descricao' => 'A-'
+                                ],
+                                [
+                                    'id' => '6',
+                                    'descricao' => 'A+'
+                                    ],
+                                    [
+                                        'id' => '7',
+                                        'descricao' => 'B-'
+                                        ],
+                                        [
+                                            'id' => '8',
+                                            'descricao' => 'B+'
+                                        ]
+            )
+        );
     }
 
     /**

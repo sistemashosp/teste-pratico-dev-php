@@ -33,13 +33,18 @@
       </ul>
    </div>
 @endif
-         
+
          @if (session()->has('success'))
+         <div class="alert alert-success" role="alert">
             <h1>{{ session('success') }}</h1>
+        </div>
         @endif
-        
-        <h1 class="display-4">Hello, world!</h1>
-             <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+
+        <h1 class="display-4">Desafio Iclinic !</h1>
+             <p class="lead">Isto é uma implementação básica de importação de CSV utilizando a biblioteca <b>Laravel Excel</b><br/> Insira um aquivo de extensão <b>.CSV</b></p>
+             <div class=" alert alert-warning">
+             <b>ATENÇÃO, LEVANDO EM CONSIDERAÇÃO QUE O PROJETO FOI REALIZADO APENAS UM AMBIENTE DE DESENVOLVIMENTO, ARQUIVOS IGUAIS OU MAIORES QUE 500000 BYTES ESTÃO SENDO PROCESSADOS EM FILA, PARA TAL É NECESSÁRIO UTILIZAR UMA DIRETIVA NO TERMINAL : <code>php artisan queue:work</code> PARA QUE O ARQUIVO SEJA PROCESSADO ! </b>    
+             </div>
              <div class="form-group">
             <label for="file"></label>
             <input type="file" class="form-control-file" name="import_file" accept=".csv">
