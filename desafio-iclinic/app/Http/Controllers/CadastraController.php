@@ -12,47 +12,32 @@ use App\Http\Requests\ImportRequest;
 
 class CadastraController extends Controller
 {
-    public function index(){
+    public function index()
+    {
 
-        return view('home');
+        return view('home');  // Index para a view home 
     }
 
-    public function store(Request $request){
+    public function store(Request $request)  // Function se encarrega de importar e cadastrar dados no banco 
+    {
 
-        Paciente::truncate();
+        Paciente::truncate(); // limpa registros anteriores no banco 
 
-        /* try {
-        Excel::import(new PacientesImport(), $request->file('import_file'));
+        try {
+            Excel::import(new PacientesImport(), $request->file('import_file')); // instancia nova importação definida no arquivo de imports 'PacientesImport'
+        } catch (\Maatwebsite\Excel\Validators\ValidationException $e) {
+            $failures = $e->failures();
+            return view('home', compact('failures')); //retorna falhas de validação para view 
         }
-        catch (\Maatwebsite\Excel\Validators\ValidationException $e) {
-        $failures = $e->failures();
-        return view('home', compact('failures'));
-        } */
-        $filesize = filesize($request->file('import_file'));
-        $file = $request->file('import_file')->store('import');
 
-        if($filesize >= 500000){
-        $import = new PacientesImport();
-        }else{
-        $import = new TransactionImport(); 
-        }
-        $import->import($file);
-        
-         /* if($import->failures()->isNotEmpty()){
-            
-            return redirect()->back()->with('success', 'csv cadastrado com sucesso campos com erros foram pulados !');
-            
-        }     
-         */
-        
 
         return redirect()->back()->with('success', 'csv cadastrado com sucesso !');
     }
 
 
-    public function lista(){
-        $pacientes = Paciente::all();
+    public function lista() // função para listar dados do banco na home 
+    {
+        $pacientes = Paciente::all(); 
         return view("home", compact('pacientes'));
     }
-
 }

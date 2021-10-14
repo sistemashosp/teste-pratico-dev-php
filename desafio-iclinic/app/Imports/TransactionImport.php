@@ -24,28 +24,34 @@ use Maatwebsite\Excel\Concerns\RegistersEventListeners;
 use Maatwebsite\Excel\Concerns\WithEvents;
 use App\Rules\ValidateCpfRule;
 
-class TransactionImport implements ToModel,
-        WithHeadingRow
+class TransactionImport implements   
+    ToModel,
+    WithHeadingRow,
+    SkipsOnError,
+    WithValidation,
+    SkipsOnFailure,
+    WithBatchInserts,
+    WithChunkReading
 {
 
 
-    use Importable;
-    private $tipo; 
+    use Importable, SkipsErrors, SkipsFailures; // traits 
+    private $tipo;
 
-    public function __construct(){
-
-        $this->tipo = TipoSanguineo::select('id', 'descricao')->get(); 
-    }
-    /**
-    * @param array $row
-    *
-    * @return \Illuminate\Database\Eloquent\Model|null
-    */
-    public function model(array $row)
+    public function __construct()
     {
 
-        $datanascimento = date('Y-m-d',preg_replace('/\D/','',strtotime($row['datanascimento']))); 
-        //dd($datanascimento);
+        $this->tipo = TipoSanguineo::select('id', 'descricao')->get(); // collection para tipo sanguineo, evitando múltiplas queries para cada linha processada
+    }
+    /**
+     * @param array $row
+     *
+     * @return \Illuminate\Database\Eloquent\Model|null
+     */
+    public function model(array $row)  
+    {
+
+        $datanascimento = date('Y-m-d', preg_replace('/\D/', '', strtotime($row['datanascimento'])));
         $tipoSanguineo = $this->tipo->where('descricao', $row['tiposanguineo'])->first();
 
         return new Paciente([
@@ -73,19 +79,33 @@ class TransactionImport implements ToModel,
         ];
     }
 
-    /* public function rules(): array
+    public function rules(): array // validation rules 
     {
         return [
-           // '*.nome' => ['required', 'regex:/(^[A-Za-z0-9 ]+$)+/'],
-            //'*.sobrenome' => ['required', 'regex:/(^[A-Za-z0-9 ]+$)+/'],
-            '*.email' => ['email','unique:pacientes,email'],
-            '*.cpf'   => ['required','numeric', new ValidateCpfRule],
-            '*.datanascimento' => ['required', 'date_format:Y-m-d']
-           // '*.endereco' => ['required','regex:/(^[A-Za-z0-9 ]+$)+/'],
-           // '*.cidade' => ['required', 'regex:/(^[A-Za-z0-9 ]+$)+/'],
+            '*.nome' => ['required', 'regex:/(^[A-Za-z0-9 ]+$)+/'],
+            '*.sobrenome' => ['required', 'regex:/(^[A-Za-z0-9 ]+$)+/'],
+            '*.email' => ['email', 'unique:pacientes,email'],
+            '*.cpf'   => ['required', 'numeric', new ValidateCpfRule],
+            '*.datanascimento' => ['required', 'numeric']
 
-             
+
         ];
-    } */
+    }
 
+
+    public function batchSize(): int  // Limita a quantidade de queries por lote de processamento
+    {
+        return 1000;
+    }
+
+    public function chunkSize(): int // Faz a leitura da planilha/csv em partes e mantém um uso de memória controlável 
+    {
+        return 5000;
+    }
+
+
+    public static function afterImport(AfterImport $event)  // trata possíveis falhar registradas em failed_jobs
+    {
+        //dd($event);
+    }
 }
