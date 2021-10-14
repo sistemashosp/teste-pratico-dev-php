@@ -20,24 +20,29 @@ class CadastraController extends Controller
 
     public function store(Request $request)  // Function se encarrega de importar e cadastrar dados no banco 
     {
+        $file = $request->file('import_file');
+        if (isset($file)) {
+            Paciente::truncate(); // limpa registros anteriores no banco 
 
-        Paciente::truncate(); // limpa registros anteriores no banco 
+            try {
+                Excel::import(new PacientesImport(), $request->file('import_file')); // instancia nova importação definida no arquivo de imports 'PacientesImport'
+            } catch (\Maatwebsite\Excel\Validators\ValidationException $e) {
+                $failures = $e->failures();
+                return view('home', compact('failures')); //retorna falhas de validação para view 
+            }
 
-        try {
-            Excel::import(new PacientesImport(), $request->file('import_file')); // instancia nova importação definida no arquivo de imports 'PacientesImport'
-        } catch (\Maatwebsite\Excel\Validators\ValidationException $e) {
-            $failures = $e->failures();
-            return view('home', compact('failures')); //retorna falhas de validação para view 
+
+            return redirect()->back()->with('success', 'csv cadastrado com sucesso !');
+        }else{
+
+            return redirect()->back();
         }
-
-
-        return redirect()->back()->with('success', 'csv cadastrado com sucesso !');
     }
 
 
     public function lista() // função para listar dados do banco na home 
     {
-        $pacientes = Paciente::all(); 
+        $pacientes = Paciente::all();
         return view("home", compact('pacientes'));
     }
 }
