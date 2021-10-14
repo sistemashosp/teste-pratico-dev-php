@@ -77,11 +77,11 @@ class PacientesImport implements
     public function rules(): array   // validation rules 
     {
         return [
-            '*.nome' => ['required', 'regex:/(^[A-Za-z0-9 ]+$)+/'],
-            '*.sobrenome' => ['required', 'regex:/(^[A-Za-z0-9 ]+$)+/'],
-            '*.email' => ['email', 'unique:pacientes,email'],
+            //'*.nome' => ['required', 'regex:/(^[A-Za-z0-9 ]+$)+/'],
+            //'*.sobrenome' => ['required', 'regex:/(^[A-Za-z0-9 ]+$)+/'],
+            //'*.email' => ['email', 'unique:pacientes,email'],
             '*.cpf'   => ['required', 'numeric', new ValidateCpfRule],
-            '*.datanascimento' => ['required', 'numeric']
+            //'*.datanascimento' => ['required', 'numeric']
 
 
 
