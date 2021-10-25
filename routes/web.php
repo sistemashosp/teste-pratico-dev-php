@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\pacientesController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -16,3 +17,8 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('pacientes', [pacientesController::class, 'index']);
+Route::get('dadosindex', [pacientesController::class, 'dadosindex']);
+Route::post('store', [pacientesController::class, 'store']);
+
