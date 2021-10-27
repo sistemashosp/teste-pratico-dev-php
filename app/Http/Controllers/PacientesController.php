@@ -43,16 +43,10 @@ class PacientesController extends Controller
     public function cadastro(Request $request)
     {
 
-        // $validatedData = $request->validate([
-        //     'arquivo' => ['required', 'mimes:csv', 'size:20000'],
-        // ]);
-
         TipoSanguineo::truncate();
         Paciente::truncate();
 
         $file = public_path('file/pacientes.csv');
-
-
 
         $isImport = $this->csvToArray($file);
 
@@ -122,31 +116,19 @@ class PacientesController extends Controller
     {
         try {
             array_push($this->arrayPaciente, [
-                // 'nome' => $data[0],
-                // 'sobrenome' => $data[1],
-                // 'email' => $data[2],
-                // 'data_nascimento' => $data[3],
-                // 'genero' => $data[4],
-                // 'id_tipo_sanguineo' => $data[5],
-                // 'endereco' => $data[6],
-                // 'cidade' => $data[7],
-                // 'estado' => $data[8],
-                // 'cep' => $data[9],
-                // 'cpf' => $data[10],
-                // 'frkPlanoSaude' => $data[11]
-
-                'nome' => utf8_decode($data[0]),
-                'sobrenome' => utf8_decode($data[1]),
-                'email' => utf8_decode($data[2]),
-                'data_nascimento' => utf8_decode($data[3]),
-                'genero' => utf8_decode($data[4]),
-                'id_tipo_sanguineo' => utf8_decode($data[5]),
-                'endereco' => utf8_decode($data[6]),
-                'cidade' => utf8_decode($data[7]),
-                'estado' => utf8_decode($data[8]),
-                'cep' => utf8_decode($data[9]),
-                'cpf' => utf8_decode($data[10]),
-                'frkPlanoSaude' => utf8_decode($data[11])
+                'nome' => $data[0],
+                'sobrenome' => $data[1],
+                'email' => $data[2],
+                'data_nascimento' => $data[3],
+                'genero' => $data[4],
+                'id_tipo_sanguineo' => $data[5],
+                'endereco' => $data[6],
+                'cidade' => $data[7],
+                'estado' => $data[8],
+                'cep' => $data[9],
+                'cpf' => $data[10],
+                'frkPlanoSaude' => $data[11],
+                'created_at' => date('Y-m-d H:i:s')
             ]);
 
             if ($this->cont == 5000) {
@@ -202,26 +184,5 @@ class PacientesController extends Controller
         }
 
         return true;
-    }
-
-    public function importaCsv($dados)
-    {
-
-
-
-
-
-        // TipoSanguineo::truncate();
-        // Paciente::truncate();
-
-        // $isImport = $this->csvToArray($dados);
-
-        // if (!$isImport) {
-        //     TipoSanguineo::truncate();
-        //     Paciente::truncate();
-        // }
-
-        // return redirect('pacientes');
-
     }
 }

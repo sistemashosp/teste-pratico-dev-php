@@ -24,7 +24,7 @@
                         <div class="card col-md-3 mr-3" style="width: 18rem;">
                             <div class="card-body">
                                 <h5 class="card-title">Importar arquivo Csv</h5>
-                                <a href="{{url('/pacientes/importar')}}" class="btn btn-primary">Importa Csv</a>
+                                <a href="{{url('pacientes/cadastro')}}" class="btn btn-primary">Importa Csv</a>
                             </div>
                         </div>
                         <div class="card col-md-3 mr-3" style="width: 18rem;">
