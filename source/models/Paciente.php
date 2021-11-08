@@ -109,7 +109,8 @@ class Paciente extends Model
 
     public function getDataNascimento()
     {
-        return $this->data_nascimento;
+        return date('d-m-Y', strtotime($this->data_nascimento));
+//        return $this->data_nascimento;
     }
 
     public function setDataNascimento($data_nascimento)

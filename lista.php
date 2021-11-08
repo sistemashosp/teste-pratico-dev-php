@@ -54,7 +54,7 @@ use Source\Models\Paciente;
                         echo '<td>'.$l->sobrenome.'</td>';
                         echo '<td>'.$l->cpf.'</td>';
                         echo '<td>'.$l->email.'</td>';
-                        echo '<td>'.$l->data_nascimento.'</td>';
+                        echo '<td>'.$l->getDataNascimento().'</td>';
                         echo '<td>'.$l->genero.'</td>';
                         echo '<td>'.$l->endereco.'</td>';
                         echo '<td>'.$l->cidade.'</td>';
