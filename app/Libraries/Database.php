@@ -51,28 +51,29 @@ class Database {
         $this->stmt->bindValue($param, $value, $type);
     }
 
+    //Executar a query
     public function execute(){
         return $this->stmt->execute();
     }
 
+    //Criar objeto de resultado
     public function result(){
         $this->execute();
         return $this->stmt->fetch(PDO::FETCH_OBJ);
     }
 
+    //Criar objeto de todos os resultados
     public function allResults(){
         $this->execute();
         return $this->stmt->fetchAll(PDO::FETCH_OBJ);
     }
-
+    
+    
+   //Número de tuplas no resultado 
     public function rowCount(){
         $this->execute();
         return $this->stmt->rowCount();
     }
 
-    public function lastInsertId(){
-        $this->execute();
-        return $this->stmt->lastInsertId();
-    }
 }
 ?>

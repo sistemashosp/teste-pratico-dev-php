@@ -28,12 +28,17 @@ class Cadastrar extends Controller {
 
         //Carregando arquivo CSV
         $csv = $this->parseCsv($_FILES['csv']['tmp_name']);
+
+        //Deletando registros da tabela
+        $this->patientModel->deleteRows();
         
         //Validando e inserindo valores na tabela
         foreach ($csv as $patient){
             $validatedData = $this->validateCsv($patient);
             $this->patientModel->insert($validatedData);
         }
+
+        $this->view('insert/success');
     }
 
     public function validateCsv($patient){
@@ -77,13 +82,22 @@ class Cadastrar extends Controller {
             $patient['email'] = " ";
         }
 
+        //Validando campo estado
+        if(array_key_exists('estado', $patient)){
+            $validateEmail = $this->isUfCorrect($patient['estado']);
+            if($validateEmail == false){
+               $patient['estado'] = " ";
+            }
+        }
+
+        else {
+            $patient['estado'] = " ";
+        }
+
         return $patient;
     }
 
-    public function insertValues($params){
-        //
-    }
-
+    //Validação do CPF
     public function isCpfCorrect($cpf){
  
         // Extrai somente os números
@@ -113,6 +127,7 @@ class Cadastrar extends Controller {
         
     }
 
+    //Validação do email
     public function isEmailCorrect($email){
         if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
             return false;
@@ -123,6 +138,7 @@ class Cadastrar extends Controller {
         }
     }
 
+    //Validação de data de nascimento
     public function isBirthdayCorrect($birthday){
         $date = explode('/', $birthday);
         $day = 0;
@@ -153,9 +169,20 @@ class Cadastrar extends Controller {
         }
     }
 
+    //Validação de estado
+    public function isUfCorrect($uf){
+        $countChar = strlen($uf);
+
+        if ($countChar != 2){
+            return false;
+        }
+
+        return true;
+    }
     
+    //Leitura do arquivo CSV.
     public function parseCsv($file){
-        $lines = explode( "\n", file_get_contents($file) );
+        $lines = explode( "\n", utf8_encode(file_get_contents($file)) );
         $headers = str_getcsv( array_shift( $lines ) );
         $data = array();
         foreach ( $lines as $line ) {

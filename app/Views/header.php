@@ -14,7 +14,7 @@
           <a class="nav-link" href="<?=URL?>Cadastrar/insertView">Inserir CSV</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Visualizar CSV</a>
+          <a class="nav-link" href="<?=URL?>Listar/getPatients/1">Visualizar CSV</a>
         </li>
       </ul>
     </div>
