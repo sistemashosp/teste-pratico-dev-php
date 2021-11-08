@@ -1,10 +1,10 @@
 <?php
 class Database {
-    private $host = 'localhost';
-    private $user = 'postgres';
-    private $password = 'bi9jn5uy';
-    private $database = 'tecnico';
-    private $port = '5432';
+    private $host = ''; //Insira o host 
+    private $user = ''; //Insira o usuário do banco
+    private $password = ''; //Insira a senha do banco;
+    private $database = ''; //Insira o nome do banco
+    private $port = ''; // Insira a porta do banco
     private $dbh;
     private $stat;
 
