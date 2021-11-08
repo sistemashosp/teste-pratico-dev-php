@@ -1,0 +1,27 @@
+{
+  "name": "diegosantosouza/teste-pratico-dev-php",
+  "description": "Teste para vaga PHP",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "diego",
+      "email": "diegosantos.s26@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "config": {
+    "vendor-dir": "vendor"
+  },
+  "autoload": {
+    "psr-4": {
+      "Source\\": "source/"
+    },
+    "files": [
+      "source/db_config.php"
+    ]
+  },
+  "require": {
+    "league/csv": "^9.7",
+    "illuminate/database": "^8.69"}
+}
