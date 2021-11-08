@@ -1,6 +1,11 @@
 # Implementação do Teste Prático Dev
 
-**Instalando**
+**Requisitos:**
+- Banco de dados Postgres
+- Apache (habilitado extensões PDO)
+- PHP 7
+
+## Instalação
 - Faça um pull nesta branch.
 - Configure o diretório raiz no arquivo app/config.php
 - Configure seu banco de dados no arquivo app/Libraries/Database.php
